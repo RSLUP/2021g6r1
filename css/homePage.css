@@ -1,0 +1,16 @@
+#navBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+#navBar li{
+    float: right;
+    color:rgb(20, 19, 2);
+    padding:  14px 16px;
+}
