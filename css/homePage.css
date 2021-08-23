@@ -6,12 +6,14 @@ h3{
   font-size: 36px;
 }
   /*Navigation bar css*/
+  
 #navBar{
-    position: sticky;
+    overflow: hidden;
     box-shadow: 0px 15px 10px -15px #111; 
 }
 
 #navBar ul{
+  
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,10 +25,17 @@ h3{
 }
 
 #navBar li{
+  
+  overflow: hidden;
     float: left;
     color:rgb(20, 19, 2);
     padding:  20px 17px;
     cursor: pointer;
+}
+#navBar li:hover{
+  background-color:#fa1414 ;
+  color: white;
+  font-size: 25px;
 }
 .icon{
     float: right;
@@ -35,9 +44,12 @@ h3{
     padding-top: 20px;
     padding-right:20px ;
     font-size: 40px;
-	color:#51BE78;
+	color:#fa1414;
     cursor: pointer;
 } 
+#icon:hover{
+  color:#FFD700;
+}
 
 /*Intro css*/
 #intro{
@@ -55,7 +67,7 @@ h3{
 }
 .heading{
     display: inline-block;
-    border-bottom: 4px solid #51be78;
+    border-bottom: 4px solid #FFD700;
     margin-bottom:10px;
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -67,15 +79,15 @@ text-align: center;
 
 .box {
     float: left;
-    width: 30%;
-    padding: 10% 5%;
+    width: 33%;
+    padding: 10% 2%;
   }
   
   /* Remove extra left and right margins, due to padding */
   .features {
       padding-left: 20%;
-      padding-right: 15%;
-      margin: 0 -5px;}
+      padding-right: 20%;
+      margin: 0 -5%;}
   
   /* Clear floats after the box */
   .features:after {
@@ -96,17 +108,17 @@ text-align: center;
   /* Style the counter cards */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 5px;
     text-align: center;
     background-color: #f1f1f1;
-    width: ;
+    
   }
  
   
   .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #51be78;
+    background-color: #fa1414;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -119,7 +131,7 @@ text-align: center;
   }
 
   .button:hover{
-    background-color: #75f8a3;
+    background-color: #FFD700;
   }
 
   .button span {
