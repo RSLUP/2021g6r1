@@ -1,0 +1,85 @@
+ /*Navigation bar css*/
+
+ #navBar {
+     overflow: hidden;
+     box-shadow: 0px 15px 10px -15px #111;
+ }
+
+ #navBar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+ }
+
+ #navBar li {
+     overflow: hidden;
+     float: left;
+     color: rgb(20, 19, 2);
+     padding: 20px 17px;
+     cursor: pointer;
+ }
+
+ #navBar li:hover {
+     background-color: #fa1414;
+     color: white;
+     font-size: 25px;
+ }
+
+ .icon {
+     float: right;
+ }
+
+ #icon {
+     padding-top: 20px;
+     padding-right: 20px;
+     font-size: 40px;
+     color: #fa1414;
+     cursor: pointer;
+ }
+
+ #icon:hover {
+     color: #FFD700;
+ }
+
+ /*Vertical Navigationbar*/
+
+ #VnavBar {
+     height: 100%;
+     float: left;
+     background-color: #f1f1f1;
+     
+ }
+
+ #VnavBar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     
+ }
+
+ #VnavBar li a {
+     display: block;
+     color: #000;
+     padding: 8px 16px;
+     text-decoration: none;
+ }
+
+ #VnavBar a:hover {
+     background-color: #555;
+     color: white;
+ }
+
+ #head {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 22px;
+     padding: 0px;
+     text-decoration: none;
+     
+ }
+ #subBox1{
+     display: none;
+ }
