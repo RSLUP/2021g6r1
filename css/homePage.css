@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-
+h3{
+  font-size: 36px;
+}
   /*Navigation bar css*/
 #navBar{
     position: sticky;
@@ -64,14 +67,14 @@ text-align: center;
 
 .box {
     float: left;
-    width: 25%;
+    width: 30%;
     padding: 10% 5%;
   }
   
   /* Remove extra left and right margins, due to padding */
   .features {
       padding-left: 20%;
-      padding-right: 5%;
+      padding-right: 15%;
       margin: 0 -5px;}
   
   /* Clear floats after the box */
@@ -96,8 +99,50 @@ text-align: center;
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    width: ;
   }
  
+  
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #51be78;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
 
-    
+  .button:hover{
+    background-color: #75f8a3;
+  }
 
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
