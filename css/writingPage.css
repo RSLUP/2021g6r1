@@ -1,11 +1,16 @@
  /*Navigation bar css*/
 
  #navBar {
-     overflow: hidden;
-     box-shadow: 0px 15px 10px -15px #111;
+     
+     box-shadow: 0px 15px 10px -15px rgb(192, 8, 8); 
  }
 
  #navBar ul {
+    
+    background-color: hsl(0, 0%, 100%);
+    position: fixed;
+    top: 0;
+    width: 100%;
      list-style-type: none;
      margin: 0;
      padding: 0;
@@ -15,7 +20,8 @@
      font-size: 20px;
  }
 
- #navBar li {
+ #navBar li a {
+    text-decoration: none;
      overflow: hidden;
      float: left;
      color: rgb(20, 19, 2);
@@ -23,7 +29,7 @@
      cursor: pointer;
  }
 
- #navBar li:hover {
+ #navBar li a:hover {
      background-color: #fa1414;
      color: white;
      font-size: 25px;
@@ -48,17 +54,17 @@
  /*Vertical Navigationbar*/
 
  #VnavBar {
-     height: 100%;
+     padding-top: 80px;
+     height: 900px;
      float: left;
      background-color: #f1f1f1;
-     
+     margin: 0;
+     overflow: auto;
  }
 
  #VnavBar ul {
      list-style-type: none;
-     margin: 0;
      padding: 0;
-     
  }
 
  #VnavBar li a {
@@ -66,6 +72,8 @@
      color: #000;
      padding: 8px 16px;
      text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     
  }
 
  #VnavBar a:hover {
@@ -78,8 +86,25 @@
      font-size: 22px;
      padding: 0px;
      text-decoration: none;
+     color: #000;
+     display: block;
      
  }
- #subBox1{
+
+ .drop {
+     cursor: pointer;
+ }
+
+ #subBox1, #subBox2, #subBox3 {
      display: none;
  }
+
+ .subbox a {
+    display: block;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     font-size: 15px;
+     padding: 0px 22px;
+    
+ }
+ 
