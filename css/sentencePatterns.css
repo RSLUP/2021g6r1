@@ -54,7 +54,7 @@
 /*Vertical Navigationbar*/
 
 #VnavBar {
-    padding-top: 60px;
+    padding-top: 40px;
     height: 900px;
     float: left;
     background-color: #f1f1f1;
@@ -64,7 +64,7 @@
 
 #VnavBar ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
 
 #VnavBar li a {
@@ -83,10 +83,8 @@
 
 #head {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #555;
-    font-size: 25px;
-    font-style:italic;
-    padding: 0px;
+    font-size: 30px;
+    padding: 10px;
     text-decoration: black;
     color: #000;
     display: block;
@@ -94,27 +92,31 @@
 }
 #sp {
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 22px;
-   padding: 0px;
+   font-size: 25px;
+   padding: 0;
    text-decoration: none;
    color: #000;
    display: block;
    
 }
 
-.drop {
-    cursor: pointer;
+#spc{
+    padding-top: 40px;
+
+
 }
 
-#subBox1, #subBox2, #subBox3 {
-    display: none;
+#HeadSP{
+
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+
+
 }
 
-.subbox a {
-   display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 15px;
-    padding: 0px 22px;
-   
-}
+
+
