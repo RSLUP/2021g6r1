@@ -32,7 +32,7 @@
  #navBar li a:hover {
      background-color: #fa1414;
      color: white;
-     font-size: 25px;
+     font-size: 20px;
  }
 
  .icon {
@@ -90,6 +90,15 @@
      display: block;
      
  }
+ #sp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    
+}
 
  .drop {
      cursor: pointer;
