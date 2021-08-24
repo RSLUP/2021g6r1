@@ -13,7 +13,10 @@ h3{
 }
 
 #navBar ul{
-  
+  background-color: hsl(0, 0%, 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,15 +27,15 @@ h3{
     
 }
 
-#navBar li{
-  
+#navBar li a{
+  text-decoration: none;
   overflow: hidden;
     float: left;
     color:rgb(20, 19, 2);
     padding:  20px 17px;
     cursor: pointer;
 }
-#navBar li:hover{
+#navBar li a:hover{
   background-color:#fa1414 ;
   color: white;
   font-size: 25px;
