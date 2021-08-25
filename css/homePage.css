@@ -13,7 +13,7 @@ h3{
 }
 
 #navBar ul{
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(46, 94%, 50%);
   position: fixed;
   top: 0;
   width: 100%;
@@ -51,7 +51,7 @@ h3{
     cursor: pointer;
 } 
 #icon:hover{
-  color:#FFD700;
+  color: #0e0d0d;
 }
 
 /*Intro css*/
