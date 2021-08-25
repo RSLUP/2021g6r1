@@ -1,98 +1,6 @@
- /*Navigation bar css*/
 
- #navBar {
-     
-    box-shadow: 0px 15px 10px -15px rgb(192, 8, 8); 
-}
-
-#navBar ul {
-   
-    background-color: hsl(46, 94%, 50%);
-   position: fixed;
-   top: 0;
-   width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-}
-
-#navBar li a {
-   text-decoration: none;
-    overflow: hidden;
-    float: left;
-    color: rgb(20, 19, 2);
-    padding: 20px 17px;
-    cursor: pointer;
-}
-
-#navBar li a:hover {
-    background-color: #fa1414;
-    color: white;
-    font-size: 20px;
-}
-
-.icon {
-    float: right;
-}
-
-#icon {
-    padding-top: 20px;
-    padding-right: 20px;
-    font-size: 40px;
-    color: #fa1414;
-    cursor: pointer;
-}
-
-#icon:hover {
-    color: #0e0d0d;
-}
-
-/*Vertical Navigationbar*/
-
-#VnavBar {
-    padding-top: 40px;
-    height: 900px;
-    float: left;
-    background-color: #f1f1f1;
-    margin: 0;
-    overflow: auto;
-}
-
-#VnavBar ul {
-    list-style-type: none;
-    padding: 10px;
-}
-
-#VnavBar li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-#VnavBar a:hover {
-    background-color: #555;
-    color: white;
-}
-
-#head {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    padding: 10px;
-    text-decoration: black;
-    color: #000;
-    display: block;
-    
-}
 #sp {
    font-family: Arial, Helvetica, sans-serif;
-   background-color: lightslategray;
    font-size: 25px;
    padding: 5px;
    text-decoration: none;
@@ -103,15 +11,13 @@
 
 #spc{
     padding-top: 40px;
-   
-
 
 }
 
 #HeadSP{
 
     padding-left: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
     font-family: Poppins, Helvetica, serif;
     font-size: 40px;

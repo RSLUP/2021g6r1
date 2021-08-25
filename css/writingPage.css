@@ -54,8 +54,9 @@
  /*Vertical Navigationbar*/
 
  #VnavBar {
-     padding-top: 80px;
-     height: 900px;
+     padding-top: 40px;
+     padding-left: 5px;
+     height: 1000px;
      float: left;
      background-color: #f1f1f1;
      margin: 0;
@@ -63,8 +64,8 @@
  }
 
  #VnavBar ul {
-     list-style-type: none;
-     padding: 0;
+     list-style-type:none;
+     padding: 5px;
  }
 
  #VnavBar li a {
@@ -83,9 +84,10 @@
 
  #head {
      font-family: Arial, Helvetica, sans-serif;
-     font-size: 22px;
-     padding: 0px;
+     font-size: 20px;
+     padding: 5px;
      text-decoration: none;
+     font-weight: bold;
      color: #000;
      display: block;
      
@@ -111,9 +113,10 @@
  .subbox a {
     display: block;
      font-family: Arial, Helvetica, sans-serif;
-     text-decoration: none;
+     text-decoration:#555;
      font-size: 15px;
      padding: 0px 22px;
+     padding-top: 5px;
     
  }
  
