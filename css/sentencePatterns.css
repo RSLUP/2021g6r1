@@ -11,6 +11,7 @@
 
 #spc{
     padding-top: 40px;
+   
 
 }
 
@@ -25,12 +26,13 @@
 }
 
 #cont1{
-    padding-left: 10px;
-    padding-top: 30px;
-    text-align:center;
+    padding:10px 350px;
+    text-align:justify;
+    text-decoration:darkgrey;
     font-family: Poppins, Helvetica, serif;
     font-size: 18px;
     font-weight: normal;
+    
 }
 
 #Topic{
