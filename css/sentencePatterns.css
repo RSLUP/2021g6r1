@@ -45,14 +45,14 @@
 }
 
 #list ol{
-    
+
     list-style-type:lower-alpha;
-     padding: 10px;
+     padding: 10px 300px;
      
 }
 #list li{
    
-    padding: 10px 300px;
+    padding: 10px 20px;
     text-align: left;
     font-family: Poppins, Helvetica, serif;
     font-size: 20px;
