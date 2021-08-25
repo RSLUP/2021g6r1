@@ -34,6 +34,16 @@
     font-weight: normal;
     
 }
+#cont2{
+    padding-left: 300px;
+    padding-right: 40px;
+    text-align:center;
+    text-decoration:darkgrey;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 18px;
+    font-weight: normal;
+    
+}
 
 #Topic{
     padding-left: 15px;
