@@ -1,0 +1,76 @@
+
+#sp {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   padding: 5px;
+   text-decoration: none;
+   color: #000;
+   display: block;
+   
+}
+
+#spc{
+    padding-top: 40px;
+   
+
+}
+
+#HeadSP{
+
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#cont1{
+    padding:10px 350px;
+    text-align:justify;
+    text-decoration:darkgrey;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 18px;
+    font-weight: normal;
+    
+}
+#cont2{
+    padding-left: 300px;
+    padding-right: 40px;
+    text-align:center;
+    text-decoration:darkgrey;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 18px;
+    font-weight: normal;
+    
+}
+
+#Topic{
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #555;
+    font-style: italic;
+}
+
+#list ol{
+
+    list-style-type:lower-alpha;
+     padding: 10px 300px;
+     
+}
+#list li{
+   
+    padding: 10px 20px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(29, 36, 2);
+
+}
+
+

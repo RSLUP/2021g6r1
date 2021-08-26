@@ -76,7 +76,10 @@ text-align: center;
     background-color: #f1f1f1;
     border-radius: 25px;
     
-    
+  }
+
+  .card:hover{
+    box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
   }
 
   .card:hover{
@@ -129,4 +132,3 @@ text-align: center;
   }
  
 
-  

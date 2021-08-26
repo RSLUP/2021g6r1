@@ -31,6 +31,8 @@
 #navBar li a:hover{
   background-color:#fa1414 ;
   color: white;
+   font-size: 20px;
+
   
 }
 .icon{
@@ -44,7 +46,8 @@
     cursor: pointer;
 } 
 #icon:hover{
-  color:#FFD700;
+   color: #0e0d0d;
+
 }
 .logButton{
     float: right;
@@ -69,8 +72,11 @@
 /*Vertical Navigationbar*/
 
 #VnavBar {
-    padding-top: 80px;
-    height: 900px;
+
+   padding-top: 50px;
+    padding-left: 5px;
+    height: 1500px;
+
     float: left;
     background-color: #f1f1f1;
     margin: 0;
@@ -79,7 +85,9 @@
 
 #VnavBar ul {
     list-style-type: none;
-    padding: 0;
+
+    padding: 5px;
+
 }
 
 #VnavBar li a {
@@ -99,12 +107,26 @@
 #head {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-    padding: 0px;
+
+   padding: 5px;
     text-decoration: none;
+    font-weight: bold;
+
     color: #000;
     display: block;
     
 }
+
+#sp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 0px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  
+}
+
 
 .drop {
     cursor: pointer;
@@ -117,9 +139,12 @@
 .subbox a {
    display: block;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+
+   text-decoration:#555;
     font-size: 15px;
     padding: 0px 22px;
+    padding-top: 5px;
+
    
 }
 /*footer*/
