@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/homePage.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8173c0abca.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/homeSlideShow.js"></script>
+    <link rel="stylesheet" href="css/homePage.css" />
+    <link rel="stylesheet" href="css/navBar.css" />
+   
     <title>LearnEnglish</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Navigation Bar-->
-    <div id="navBar"clss="top">
-        <ul>
-            <li><a>Home</a></li>
-            <li><a href="#cards">Courses</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Contact</a></li>
-            <div class="icon">
-                <i id ="icon" class="fab fa-linkedin"></i>
-                <i id ="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+    <div id="navBar" clss="top">
+      <ul>
+        <li><a>Home</a></li>
+        <li><a href="#cards">Courses</a></li>
+        <li><a>About Us</a></li>
+        <li><a>Contact</a></li>
+        <button class="logButton" id="signUp"> SignUp </button>
+        <button class="logButton" id="logIn"> Login</button>
+      </ul>
+     
     </div>
     <!--Intro-->
-    <div id="intro"> 
-    <p id="center"><span class="heading">English is EASY!</span></p>
-    <p class="prgph">English is the most used and spoken language around the world. At least one out of 5 people can speak or understand English! ... Learning English will increase your chances to get a job, participate in discussions, and improve your networking skills. English helps you increase your educational opportunities.</p>
-
-    <div id="cards"class="features">
-        <div class="box">
-          <div class="card">
-            <h3>Reading</h3>
-            <p>Some text</p>
-            <button class="button"><span>Learn</span></button>
-            <br>
-            <button class="button"><span>Test</span></button>
-          </div>
-        </div>
+    
+    <div id="intro">
       
-        <div class="box">
-          <div class="card">
-            <h3>Writing</h3>
-            <p>Some text</p>
-            <button class="button" onclick="location.href ='html/writingPage.html';"><span>Learn</span></button>
-            <br>
-            <button class="button"><span>Test</span></button>
-           </div>
-        </div>
+      <p id="center"><span class="heading">English is EASY!</span></p>
+      <p class="prgph">
         
-        <div class="box">
-          <div class="card">
-            <h3>Listening</h3>
-            <p>Some text</p>
-            <button class="button"><span>Learn</span></button>
-            <br>
-            <button class="button"><span>Test</span></button>
-          </div>
-        </div>
-
+        English is the most used and spoken language around the world. At least
+        one out of 5 people can speak or understand English! ... Learning
+        English will increase your chances to get a job, participate in
+        discussions, and improve your networking skills. English helps you
+        increase your educational opportunities.
+      </p>
+      
     </div>
-        
+    
+    <div id="cards" class="features">
+      
+      <div class="box">
+        <div class="card">
+          <h3>Reading</h3>
+          <p>Some text</p>
+          <button class="button"><span>Learn</span></button>
+          <br />
+          <button class="button"><span>Test</span></button>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <h3>Writing</h3>
+          <p>Some text</p>
+          <button
+            class="button"
+            onclick="location.href ='html/writingPage.html';"
+          >
+            <span>Learn</span>
+          </button>
+          <br />
+          <button class="button"><span>Test</span></button>
+        </div>
+      </div>
+  
+      <div class="box">
+        <div class="card">
+          <h3>Listening</h3>
+          <p>Some text</p>
+          <button class="button"><span>Learn</span></button>
+          <br />
+          <button class="button"><span>Test</span></button>
+        </div>
+      </div>
+    </div>
+    
+</div>
+
 
     <!--Page footer-->
     <footer id="footer">
-      
+      <p id="footerText">LearnEnglish is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
 
+        Copyright 2021 by Refsnes Data. All Rights Reserved.
+       LearnEnglish is Powered by RslUP</p>
+      <div class="icon">
+        <i id="icon" class="fab fa-linkedin"></i>
+        <i id="icon" class="fab fa-facebook-square"></i>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
