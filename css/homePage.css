@@ -1,134 +1,123 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-  }
-h3{
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h3 {
   font-size: 36px;
 }
 
-
-
 /*Intro css*/
-#intro{
-    padding-top: 10%;
-    
+#intro {
+  padding-top: 10%;
 }
-.prgph{
-    
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 26px;
-    line-height: 1.8;
-    padding-left: 30%;
-    padding-right: 30%;
+.prgph {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 26px;
+  line-height: 1.8;
+  padding-left: 30%;
+  padding-right: 30%;
 }
-.heading{
-    display: inline-block;
-    border-bottom: 4px solid #FFD700;
-    margin-bottom:10px;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
+.heading {
+  display: inline-block;
+  border-bottom: 4px solid #ffd700;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-#center{
-text-align: center;
+#center {
+  text-align: center;
 }
 
 .box {
-    float: left;
-    width: 33%;
-    padding: 10% 2%;
-  }
-  
-  
-  /* Remove extra left and right margins, due to padding */
-  .features {
-      padding-left: 20%;
-      padding-right: 20%;
-      padding-top: 10%;
-      margin: 0 -5%;
-      position: relative;
-  }
-  
-  /* Clear floats after the box */
-  .features:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive box */
-  @media screen and (max-width: 600px) {
-    .box {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0px 4px 8px 0px rgba(54, 54, 52, 0.904);
-    padding: 5px;
-    padding-bottom:70px ;
-    text-align: center;
-    background-color: #f1f1f1;
-    border-radius: 25px;
-    
-  }
+  float: left;
+  width: 33%;
+  padding: 10% 2%;
+}
 
-  .card:hover{
-    box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
-  }
+/* Remove extra left and right margins, due to padding */
+.features {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  margin: 0 -5%;
+  position: relative;
+}
 
-  .card:hover{
-    box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
-  }
- 
-  
-  .button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #fa1414;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 150px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
+/* Clear floats after the box */
+.features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-  .button:hover{
-    background-color: #FFD700;
+/* Responsive box */
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
+}
 
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
- 
+/* Style the counter cards */
+.card {
+  box-shadow: 0px 4px 8px 0px rgba(54, 54, 52, 0.904);
+  padding: 5px;
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+}
 
+.card:hover {
+  box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fa1414;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #ffd700;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
