@@ -36,10 +36,71 @@ text-align: center;
 }
 
 .box {
-  float: left;
-  width: 33%;
-  padding: 10% 2%;
-}
+    float: left;
+    width: 33%;
+    padding: 10% 2%;
+  }
+  
+  
+  /* Remove extra left and right margins, due to padding */
+  .features {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 10%;
+      margin: 0 -5%;
+      position: relative;
+  }
+  
+  /* Clear floats after the box */
+  .features:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive box */
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0px 4px 8px 0px rgba(54, 54, 52, 0.904);
+    padding: 5px;
+    padding-bottom:70px ;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    
+  }
+
+  .card:hover{
+    box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
+  }
+
+  .card:hover{
+    box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
+  }
+ 
+  
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fa1414;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
 
 
 /* Remove extra left and right margins, due to padding */
