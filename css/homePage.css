@@ -8,7 +8,8 @@ h3 {
 
 /*Intro css*/
 #intro {
-  padding-top: 10%;
+  padding-top: 5%;
+  background-color: #fa1414;
 }
 .prgph {
   text-align: center;
