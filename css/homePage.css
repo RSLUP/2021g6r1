@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+body {
+background-color: #eee; <---!changed bg color--->
+
 }
 h3 {
   font-size: 36px;
@@ -8,8 +13,7 @@ h3 {
 
 /*Intro css*/
 #intro {
-  padding-top: 5%;
-  background-color: #fa1414;
+  padding-top: 10%;
 }
 .prgph {
   text-align: center;
