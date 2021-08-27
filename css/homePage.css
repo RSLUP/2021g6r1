@@ -1,191 +1,41 @@
-* {
-  box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-}
-h3{
-font-size: 36px;
-}
+Hi Oshini,
 
 
 
-/*Intro css*/
-#intro{
-  padding-top: 10%;
-  
-}
-.prgph{
-  
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 26px;
-  line-height: 1.8;
-  padding-left: 30%;
-  padding-right: 30%;
-}
-.heading{
-  display: inline-block;
-  border-bottom: 4px solid #FFD700;
-  margin-bottom:10px;
-  font-size: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
-}
-#center{
-text-align: center;
-}
+This is the right time to become AI or Data Engineer!
 
-.box {
-    float: left;
-    width: 33%;
-    padding: 10% 2%;
-  }
-  
-  
-  /* Remove extra left and right margins, due to padding */
-  .features {
-      padding-left: 20%;
-      padding-right: 20%;
-      padding-top: 10%;
-      margin: 0 -5%;
-      position: relative;
-  }
-  
-  /* Clear floats after the box */
-  .features:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive box */
-  @media screen and (max-width: 600px) {
-    .box {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0px 4px 8px 0px rgba(54, 54, 52, 0.904);
-    padding: 5px;
-    padding-bottom:70px ;
-    text-align: center;
-    background-color: #f1f1f1;
-    border-radius: 25px;
-    
-  }
-
-  .card:hover{
-    box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
-  }
-
-  .card:hover{
-    box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
-  }
- 
-  
-  .button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #fa1414;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 150px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
+According to IBM, 3.5 lakh+ new data science openings were generated in the year 2020.
 
 
-/* Remove extra left and right margins, due to padding */
-.features {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10%;
-    margin: 0 -5%;
-    position: relative;
-}
 
-/* Clear floats after the box */
-.features:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+Are you prepared to take advantage of this massive opportunity?
 
-/* Responsive box */
-@media screen and (max-width: 600px) {
-  .box {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+For growth-focused professionals like you, adding Software engineering + Data Science skills to your profile will bring an impeccable value boost to your career.
 
-/* Style the counter cards */
-.card {
-  box-shadow: 0px 4px 8px 0px rgba(54, 54, 52, 0.904);
-  padding: 5px;
-  padding-bottom:70px ;
-  text-align: center;
-  background-color: #f1f1f1;
-  border-radius: 25px;
-  
-  
-}
-
-.card:hover{
-  box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
-}
+The benefit of this will even triple up when it will come from IIIT-Hyderabad (Ranked #11, Top technical Universities, Outlook 2020).
 
 
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #fa1414;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
 
-.button:hover{
-  background-color: #FFD700;
-}
+Highlights of IIIT H & Great Learning's PG certificate program in Software Engineering for Data Science:
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
 
-.button:hover span {
-  padding-right: 25px;
-}
+1. You get to learn from the world-class faculty from IIIT Hyderabad and Industry Experts
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+2. We provide a comprehensive learning curriculum of 350+ learning hours with Online content and Live Online Teaching.
 
+3. Our program enables you to gain an in-depth understanding of data science and software systems that are widely used by companies to deploy data applications at scale.
+
+4. We will provide you with hands-on exposure through informative Industry-oriented projects.
+
+5. Post the completion of the program, you'll be given IIIT-Hyderabad alumni status.
+
+
+
+So wait no further! Check out our PG certificate in Software Engineering for Data Science program by IIIT Hyderabad.
+
+
+
+Power ahead in your career with us!
+
+Team Great Learning
