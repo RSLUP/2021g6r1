@@ -46,6 +46,23 @@
     color: rgb(117, 7, 7);
     font-style: italic;
   }
+  #tablePP{
+    padding: 10px 1px;
+    padding-bottom: 30px;
+  }
+  #tablePP th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #tablePP tr,td,th{
+    
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
   #table{
     padding: 10px 300px;
     padding-bottom: 30px;
@@ -54,7 +71,7 @@
     font-weight: bold;
     background-color: lightgrey;
   }
-  #tabel tr,td,th{
+  #table tr,td,th{
     padding: 10px 90px;
     background-color: lightyellow;
     font-size: 20px;
