@@ -117,3 +117,21 @@
     font-weight: normal;
 
   }
+
+  #table3{
+    padding: 10px 100px;
+    padding-bottom: 30px;
+  }
+  #table3 th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table3 tr,td{
+    padding: 10px 20px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
