@@ -99,3 +99,21 @@
     font-weight: normal;
     color: rgb(29, 36, 2);
   }
+
+  #table2{
+    padding: 10px 300px;
+    padding-bottom: 30px;
+  }
+  #table2 th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table2 tr,td{
+    padding: 10px 20px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
