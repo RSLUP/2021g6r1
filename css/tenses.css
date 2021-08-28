@@ -1,0 +1,75 @@
+#T {
+    padding-top: 10px;
+  }
+
+#Head {
+    padding-left: 10px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #HeadSP {
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  #Topic {
+    padding-left: 250px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    font-style: italic;
+  }
+  #struct {
+    padding-left: 250px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(54, 5, 5);
+    font-style: bold;
+  }
+  #struct1 {
+    padding-left: 250px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(175, 6, 6);
+    font-style: bold;
+  }
+
+  #struct2 {
+    padding-left: 250px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+    font-style: italic;
+  }
+
+  #struct3 ul,ol{
+    padding-left: 250px;
+    
+  }
+
+  #struct3 li {
+    padding: 5px 2px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 15px;
+    color: rgb(15, 15, 15);
+    font-style: normal;
+  }
