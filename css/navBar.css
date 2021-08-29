@@ -153,5 +153,9 @@ footer{
   }
 #footerText{
     text-align: center;
-    color: white;
+    color: rgb(8, 8, 8);
+}
+#footerTextHome{
+  text-align: center;
+  color: rgb(250, 244, 244);
 }
