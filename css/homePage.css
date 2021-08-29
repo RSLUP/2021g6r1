@@ -11,17 +11,30 @@ h3 {
   font-size: 36px;
 }
 
+body{
+  background-color: black;
+}
+
 /*Intro css*/
 #intro {
-  padding-top: 10%;
+  margin-top: 15%;
+  margin-left:20% ;
+  margin-right:20% ;
+  padding: 2%;
+  background-color: rgba(235, 223, 223, 0.774);
+  overflow: visible;
+  
+  
 }
 .prgph {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 26px;
   line-height: 1.8;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
+  
+  
 }
 .heading {
   display: inline-block;
@@ -38,6 +51,7 @@ h3 {
   float: left;
   width: 33%;
   padding: 10% 2%;
+  
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -46,7 +60,8 @@ h3 {
   padding-right: 20%;
   padding-top: 10%;
   margin: 0 -5%;
-  position: relative;
+ 
+ 
 }
 
 /* Clear floats after the box */
@@ -125,4 +140,254 @@ h3 {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+/*........................................*/
+
+.mySlides {
+  display: none;
+}
+img {
+
+  vertical-align: middle;
+}
+.mySlides img{
+  height: 750px;
+  width: 2000px;
+ 
+  object-fit: fill;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  margin-top:-12%;
+  position: absolute;
+  z-index: -5;
+  position: absolute;
+  
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: kenburns;
+  -webkit-animation-duration: 1.5s;
+  animation-name:  kenburns-1;
+  animation-name:  kenburns-2;
+  animation-name:  kenburns-3;
+  animation-name:  kenburns-4;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes 
+kenburns-1 {  0% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 1.5625% {
+ opacity: 1;
+}
+ 23.4375% {
+ opacity: 1;
+}
+ 26.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 98.4375% {
+ opacity: 0;
+ -webkit-transform: scale(1.21176);
+ transform: scale(1.21176);
+}
+ 100% {
+ opacity: 1;
+}
+}
+
+@keyframes 
+kenburns-1 {  0% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 1.5625% {
+ opacity: 1;
+}
+ 23.4375% {
+ opacity: 1;
+}
+ 26.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 98.4375% {
+ opacity: 0;
+ -webkit-transform: scale(1.21176);
+ transform: scale(1.21176);
+}
+ 100% {
+ opacity: 1;
+}
+}
+
+@-webkit-keyframes 
+kenburns-2 {  23.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 26.5625% {
+ opacity: 1;
+}
+ 48.4375% {
+ opacity: 1;
+}
+ 51.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+
+@keyframes 
+kenburns-2 {  23.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 26.5625% {
+ opacity: 1;
+}
+ 48.4375% {
+ opacity: 1;
+}
+ 51.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+
+@-webkit-keyframes 
+kenburns-3 {  48.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 51.5625% {
+ opacity: 1;
+}
+ 73.4375% {
+ opacity: 1;
+}
+ 76.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+
+@keyframes 
+kenburns-3 {  48.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 51.5625% {
+ opacity: 1;
+}
+ 73.4375% {
+ opacity: 1;
+}
+ 76.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+
+@-webkit-keyframes 
+kenburns-4 {  73.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 76.5625% {
+ opacity: 1;
+}
+ 98.4375% {
+ opacity: 1;
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+}
+
+@keyframes 
+kenburns-4 {  73.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 76.5625% {
+ opacity: 1;
+}
+ 98.4375% {
+ opacity: 1;
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
 }
