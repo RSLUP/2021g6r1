@@ -46,23 +46,7 @@
     color: rgb(117, 7, 7);
     font-style: italic;
   }
-  #tablePP{
-    padding: 10px 30px;
-    padding-bottom: 30px;
-  }
-  #tablePP th{
-    font-weight: bold;
-    background-color: lightgrey;
-  }
-  #tablePP tr,td,th{
-    padding: 10px 0px;
-    background-color: lightyellow;
-    font-size: 20px;
-    text-align: center;
-    font-family: Poppins, Helvetica, serif;
-    font-weight: normal;
 
-  }
   #table{
     padding: 10px 300px;
     padding-bottom: 30px;
@@ -101,7 +85,7 @@
   }
 
   #table2{
-    padding: 10px 100px;
+    
     padding-bottom: 30px;
    
   }
@@ -110,7 +94,7 @@
     background-color: lightgrey;
   }
   #table2 tr,td{
-    padding: 0px 0px;
+    padding: 10px 10px;
     background-color: lightyellow;
     font-size: 20px;
     text-align:justify;
@@ -119,20 +103,6 @@
 
   }
 
-  #table3{
-    padding: 10px 100px;
-    padding-bottom: 30px;
-  }
-  #table3 th{
-    font-weight: bold;
-    background-color: lightgrey;
-  }
-  #table3 tr,td{
-    padding: 10px 20px;
-    background-color: lightyellow;
-    font-size: 20px;
-    text-align: center;
-    font-family: Poppins, Helvetica, serif;
-    font-weight: normal;
 
-  }
+
+  
