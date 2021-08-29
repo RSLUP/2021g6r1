@@ -46,6 +46,16 @@
     color: rgb(117, 7, 7);
     font-style: italic;
   }
+  #TopicP {
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(151, 149, 7);
+    font-style: italic;
+  }
 
   #table{
     padding: 10px 300px;
@@ -82,6 +92,15 @@
     font-size: 15px;
     font-weight: normal;
     color: rgb(29, 36, 2);
+  }
+
+  #list2 li{
+    padding:10px 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
   }
 
   #table2{
