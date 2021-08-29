@@ -1,5 +1,5 @@
 body {
-    background-color:#eee; 
+    background-color:rgb(0, 0, 0); 
     
     }
 
@@ -42,6 +42,7 @@ input[type=text], select, textarea {
 padding-top: 100px;
 font-size: 40px;
 text-align: center;
+color: #fff;
 
   }
 /*testing stage*/
