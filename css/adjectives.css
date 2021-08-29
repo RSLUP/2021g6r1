@@ -1,0 +1,137 @@
+#Topic {
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    font-style: italic;
+  }
+  #spc {
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 20px;
+  }
+  
+#HeadSP {
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #list ul {
+    padding: 10px 300px;
+    padding-bottom: 280px;
+  }
+  #list li{
+    padding:20px 20px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(29, 36, 2);
+  }
+
+  #TopicPP {
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(117, 7, 7);
+    font-style: italic;
+  }
+  #tablePP{
+    padding: 10px 1px;
+    padding-bottom: 30px;
+  }
+  #tablePP th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #tablePP tr,td,th{
+    
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
+  #table{
+    padding: 10px 300px;
+    padding-bottom: 30px;
+  }
+  #table th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table tr,td,th{
+    padding: 10px 90px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
+  #Topic1 {
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    font-style: italic;
+  }
+
+  #list1 li{
+    padding:10px 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(29, 36, 2);
+  }
+
+  #table2{
+    padding: 10px 300px;
+    padding-bottom: 30px;
+  }
+  #table2 th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table2 tr,td{
+    padding: 10px 20px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
+
+  #table3{
+    padding: 10px 100px;
+    padding-bottom: 30px;
+  }
+  #table3 th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table3 tr,td{
+    padding: 10px 20px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
