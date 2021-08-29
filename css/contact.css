@@ -1,0 +1,155 @@
+body {
+    background-color:white; 
+    
+    }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color:#fa1414;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: yellow;
+  }
+  
+  
+  .container {
+    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top : 50px;
+  }
+  
+
+  .head1 {
+padding-top: 100px;
+font-size: 40px;
+text-align: center;
+
+  }
+/*testing stage*/
+
+
+.det1{
+padding-top: 40px;
+
+}
+
+#page-wrap {
+    display:table;
+    width:80%;
+    border:1px solid #ffffff;
+    border-radius:10px;
+    border-spacing:10px;
+    margin:auto;
+    background-color:#fff;
+    box-shadow:0px 4px 8px 0px rgba(248, 84, 84, 0.904);
+
+ }
+#page-wrap div {
+    display:table-cell;
+    width:33.33%;
+    padding:2%;
+    border:1px solid #fa1414;
+    border-radius:10px;
+    background-image:linear-gradient(to bottom,#fa1414,#fa1414);
+    box-shadow:inset 0 0 10px rgba;
+
+    word-wrap:break-word;
+    color:rgb(0, 0, 0); 
+ }
+@media screen and (max-width:800px) {
+#page-wrap div {
+    font-size:2.0vw;
+  }
+ }
+@media screen and (max-width:480px) {
+#page-wrap div {
+    font-size:2.5vw;
+  }
+ }
+
+
+
+#left button{
+
+padding-left: 26px;
+    
+}
+
+#mid button{
+
+    padding-left: 80px;
+        
+    }
+
+    #right button{
+
+        padding-left: 80px;
+            
+    }
+
+    
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fa1414;
+    border: none;
+    color: #070000;
+    text-align: center;
+    font-size: 20px;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button:hover {
+    background-color: #ffd700;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+
