@@ -84,12 +84,23 @@
     color: #555;
     font-style: italic;
   }
+  #Topic2 {
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(24, 2, 2);
+    font-style:initial;
+  }
+
 
   #list1 li{
     padding:10px 10px;
     text-align: left;
     font-family: Poppins, Helvetica, serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
     color: rgb(29, 36, 2);
   }
