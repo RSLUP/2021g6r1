@@ -13,7 +13,7 @@
 
 
 #navBar ul{
-  background-color: white;
+  background-color: hsl(0, 100%, 99%);
   box-shadow: 0px 15px 10px -15px #111; 
   width: 100%;
     list-style-type: none;
@@ -54,7 +54,7 @@
 } 
 #icon:hover{
 
-  color: #ffd700;
+  color: #f1f509;
 
 }
 .logButton{
@@ -134,7 +134,7 @@
     cursor: pointer;
 }
 
-#subBox1, #subBox2, #subBox3,#pro1,#adj1 {
+#subBox1, #subBox2, #subBox3,#pro,#adj {
     display: none;
 }
 

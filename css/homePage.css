@@ -10,6 +10,7 @@ h3 {
 
 body{
   background-color: black;
+  overflow-x: hidden;
 }
 
 /*Intro css*/
@@ -152,7 +153,6 @@ img {
 .mySlides img{
   height: 750px;
   width: 2000px;
- 
   object-fit: fill;
 }
 
@@ -162,15 +162,19 @@ img {
   position: absolute;
   z-index: -5;
   position: absolute;
+  max-width: max-content;
   
 }
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: kenburns;
-  -webkit-animation-duration: 1.5s;
- 
-  animation-duration: 1.5s;
+  -webkit-animation-duration: 3.5s;
+  animation-name:  kenburns-1;
+  animation-name:  kenburns-2;
+  animation-name:  kenburns-3;
+  animation-name:  kenburns-4;
+  animation-duration: 3.5s;
 }
 
 
