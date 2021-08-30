@@ -24,3 +24,23 @@ function sub3() {
     x.style.display = "none";
   }
 }
+
+function pro1() {
+  var x = document.getElementById("pro");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function adj1() {
+  var x = document.getElementById("adj");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

@@ -133,7 +133,7 @@
     cursor: pointer;
 }
 
-#subBox1, #subBox2, #subBox3 {
+#subBox1, #subBox2, #subBox3,#pro1,#adj1 {
     display: none;
 }
 
