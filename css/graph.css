@@ -1,0 +1,36 @@
+#WRT{
+  padding-top: 40px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+#Head{
+    padding-left:10px;
+    padding-top: 50px;
+    text-align: center;
+    font-family:Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+#descrp{
+    padding-left:15px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Poppins, Helvetica, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #555;
+    font-style: italic;
+}
+#list li{
+    padding: 20px 30px;
+    text-align: left;
+    font-family:Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight:bold;
+    margin-right:50px;
+    align-content: center;
+    
+}
