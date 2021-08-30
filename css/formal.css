@@ -1,0 +1,114 @@
+
+#WRT{
+  padding-top: 40px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+#Head{
+    padding-left:10px;
+    padding-top: 50px;
+    text-align: center;
+    font-family:Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+#descrp{
+    padding-left:15px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Poppins, Helvetica, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #555;
+    font-style: italic;
+}
+#list li{
+    padding: 20px 30px;
+    text-align: left;
+    font-family:Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight:bold;
+    margin-right:50px;
+    align-content: center;
+    
+}
+
+/*-----Adding sliding for formal letter section-----*/
+
+.wrapper{
+    max-height:500px;
+    max-width: 500px;
+    border:1px solid #000;
+    display:flex;
+    overflow-x:auto;
+    
+}
+.wrapper::webkit-scrollbar{
+    width:"0";
+}
+.wrapper .item{
+    min-width:500px;
+    height:500px;
+    line-height:500px;
+    background-color: azure;
+    margin-right: 0px;
+}
+
+
+
+/*-----Adding example Notice----*/
+
+.tableNot{
+    border:2px solid black;
+    background-color:lightgrey;
+    margin: auto;
+}
+/*----Adding note formats-----*/
+.table1{
+    border:2px solid black;
+    background-color:lightgrey;
+    margin-right: 100px; 
+    margin-left: 100px;
+}
+.table2{
+    border:2px solid black;
+    background-color:lightgrey;
+    margin-left: 100px; 
+}
+.table3{
+    border:2px solid black;
+    background-color:lightgrey;
+    margin-left: 100px; 
+}
+.tab{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+/*----Adding Memo formats-----*/
+
+.mem{
+    border: 1px solid black;
+    margin-left: 30px;
+  
+}
+
+.mem1{
+    border: 4px solid black;  
+    margin-left: 20px;
+}
+.mem2{
+    border: 4px solid black;
+    margin-right:50px;
+}
+
+/*----Formal Letters-----*/
+
+
+.tableNot1{
+    background-color:whitesmoke;
+}

@@ -80,7 +80,7 @@
 #VnavBar {
     padding-top: 50px;
     padding-left: 5px;
-    height: auto;
+    height: 100%;
     padding-top: 80px;
    padding-top: 50px;
     padding-left: 5px;
@@ -133,7 +133,7 @@
     cursor: pointer;
 }
 
-#subBox1, #subBox2, #subBox3 {
+#subBox1, #subBox2, #subBox3,#pro1,#adj1 {
     display: none;
 }
 
