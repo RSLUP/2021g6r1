@@ -3,10 +3,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
 }
-body {
-background-color: #eee; <--!changed bg color--->
 
-}
 h3 {
   font-size: 36px;
 }
@@ -17,12 +14,13 @@ body{
 
 /*Intro css*/
 #intro {
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left:20% ;
   margin-right:20% ;
   padding: 2%;
   background-color: rgba(235, 223, 223, 0.774);
   overflow: visible;
+  border-radius: 8%;
   
   
 }
@@ -86,17 +84,15 @@ body{
   padding: 5px;
   padding-bottom: 70px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color:  #f3de68; 
   border-radius: 25px;
 }
 
 .card:hover {
-  box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
+  box-shadow: 0px 4px 8px 5px rgba(255, 255, 255, 0.904);
 }
 
-.card:hover {
-  box-shadow: 0px 4px 8px 0px rgba(248, 84, 84, 0.904);
-}
+
 
 .button {
   display: inline-block;
@@ -114,7 +110,10 @@ body{
 }
 
 .button:hover {
-  background-color: #ffd700;
+  background-color: #f3a155;
+  color: black;
+  
+  box-shadow: 0px 4px 8px 0px rgb(130, 253, 15);
 }
 
 .button span {
@@ -159,7 +158,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  margin-top:-12%;
+  margin-top:-5%;
   position: absolute;
   z-index: -5;
   position: absolute;
@@ -170,224 +169,8 @@ img {
 .fade {
   -webkit-animation-name: kenburns;
   -webkit-animation-duration: 1.5s;
-  animation-name:  kenburns-1;
-  animation-name:  kenburns-2;
-  animation-name:  kenburns-3;
-  animation-name:  kenburns-4;
+ 
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes 
-kenburns-1 {  0% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 1.5625% {
- opacity: 1;
-}
- 23.4375% {
- opacity: 1;
-}
- 26.5625% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 98.4375% {
- opacity: 0;
- -webkit-transform: scale(1.21176);
- transform: scale(1.21176);
-}
- 100% {
- opacity: 1;
-}
-}
-
-@keyframes 
-kenburns-1 {  0% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 1.5625% {
- opacity: 1;
-}
- 23.4375% {
- opacity: 1;
-}
- 26.5625% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 98.4375% {
- opacity: 0;
- -webkit-transform: scale(1.21176);
- transform: scale(1.21176);
-}
- 100% {
- opacity: 1;
-}
-}
-
-@-webkit-keyframes 
-kenburns-2 {  23.4375% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 26.5625% {
- opacity: 1;
-}
- 48.4375% {
- opacity: 1;
-}
- 51.5625% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
-}
-
-@keyframes 
-kenburns-2 {  23.4375% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 26.5625% {
- opacity: 1;
-}
- 48.4375% {
- opacity: 1;
-}
- 51.5625% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
-}
-
-@-webkit-keyframes 
-kenburns-3 {  48.4375% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 51.5625% {
- opacity: 1;
-}
- 73.4375% {
- opacity: 1;
-}
- 76.5625% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
-}
-
-@keyframes 
-kenburns-3 {  48.4375% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 51.5625% {
- opacity: 1;
-}
- 73.4375% {
- opacity: 1;
-}
- 76.5625% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
-}
-
-@-webkit-keyframes 
-kenburns-4 {  73.4375% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 76.5625% {
- opacity: 1;
-}
- 98.4375% {
- opacity: 1;
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
-}
-
-@keyframes 
-kenburns-4 {  73.4375% {
- opacity: 1;
- -webkit-transform: scale(1.2);
- transform: scale(1.2);
-}
- 76.5625% {
- opacity: 1;
-}
- 98.4375% {
- opacity: 1;
-}
- 100% {
- opacity: 0;
- -webkit-transform: scale(1);
- transform: scale(1);
-}
-}
