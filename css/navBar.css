@@ -41,6 +41,7 @@
   font-size: 20px;
   
 }
+
 .icon{
     float: right;
 }
@@ -150,6 +151,7 @@
 footer{
     border-top: 1px solid black;
     width:100%;
+    
   }
 #footerText{
     text-align: center;
