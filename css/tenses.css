@@ -39,7 +39,7 @@
     font-style: bold;
   }
   #struct1 {
-    padding-left: 250px;
+    padding-left: 300px;
     padding-top: 10px;
     text-align: left;
     font-family: Poppins, Helvetica, serif;
@@ -50,7 +50,7 @@
   }
 
   #struct2 {
-    padding-left: 250px;
+    padding-left: 300px;
     padding-top: 10px;
     text-align: left;
     font-family: Poppins, Helvetica, serif;
@@ -61,7 +61,7 @@
   }
 
   #struct3 ul,ol{
-    padding-left: 250px;
+    padding-left: 300px;
     
   }
 
