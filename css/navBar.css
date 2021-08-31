@@ -8,11 +8,12 @@
     position: fixed;
     top: 0;
     width: 100%;
+    margin: 0;
  }
 
 
 #navBar ul{
-  background-color: hsl(0, 2%, 80%);
+  background-color: hsl(0, 100%, 99%);
   box-shadow: 0px 15px 10px -15px #111; 
   width: 100%;
     list-style-type: none;
@@ -41,6 +42,7 @@
   font-size: 20px;
   
 }
+
 .icon{
     float: right;
 }
@@ -53,7 +55,7 @@
 } 
 #icon:hover{
 
-  color: #0e0d0d;
+  color: #f1f509;
 
 }
 .logButton{
@@ -133,7 +135,7 @@
     cursor: pointer;
 }
 
-#subBox1, #subBox2, #subBox3,#pro1,#adj1 {
+#subBox1, #subBox2, #subBox3,#pro,#adj {
     display: none;
 }
 
@@ -150,6 +152,7 @@
 footer{
     border-top: 1px solid black;
     width:100%;
+    
   }
 #footerText{
     text-align: center;
