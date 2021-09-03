@@ -5,68 +5,54 @@ let questions = [
     question: "He (correct, correctly) defined the terms. The answer sounded (correctly, correct)",
     answer: "correctly  , correct",
     options: [
-      "correctly  , correct",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "",
+      "",
+      "",
+      "correctly  , correct"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "She worked (careful, carefully) with the sick child. She was a very (careful, carefully) worker.",
+    answer: "carefully  , careful",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "",
+      "carefully  , careful",
+      "",
+      ""
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: " He measured the floor (exact, exactly). They proved to be (perfectly, perfect) (exact, exactly) measurements.",
+    answer: "exactly , perfectly exact",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "",
+      "",
+      "",
+      "exactly , perfectly exact"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "The stillness of the tomb was (awfully, awful). The tomb was (awfully, awful) still.",
+    answer: "awful , awfully",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "",
+      "",
+      "awful , awfully",
+      ""
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "It was a (dangerously, dangerous) lake to swim in. The man was (dangerous, dangerously) drunk. The gas smelled (dangerously,dangerous).",
+    answer: "dangerous , dangerously",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "dangerous , dangerously",
+      "",
+      "",
+      ""
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-     {
-     numb: 6,
-     question: "Your Question is Here",
-     answer: "Correct answer of the question is here",
-     options: [
-       "Option 1",
-       "option 2",
-       "option 3",
-       "option 4"
-     ]
-   },
 ];

@@ -8,7 +8,7 @@
 }
 
 body{
-    background: rgb(36, 91, 104);
+    background: rgb(36, 94, 104);
 }
 
 ::selection{
@@ -184,7 +184,7 @@ section{
 
 section .que_text{
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 section .option_list{
