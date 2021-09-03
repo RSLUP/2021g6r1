@@ -88,24 +88,23 @@ next_btn.onclick = ()=>{
     }
 }
 
-//const title_changer = quiz_box.querySelector(".header .title"); //tracking the title class
-
+const title_changer = quiz_box.querySelector(".header .title"); //tracking the title class
 // getting questions and options from array
 function showQuetions(index){
     const que_text = document.querySelector(".que_text");
 
-    //test case for conditional forms
-    /*if(index == (0 || 1)){
+    //test case for conditional forms\\
+    if(index == (0 || 1)){
         title_changer.innerHTML="Put the verb into the correct first conditional form:";
     }else
-    if (index == (2 || 3)) {        //checking if the questiones number is 2 or 3
+    if (index == (2 || 3)) {       //  checking if the questiones number is 2 or 3
         title_changer.innerHTML="Put the verb into the correct second conditional form:";
     } else 
-    if(index == (4 || 5)){          //checking if the questiones number is 2 or 3
+    if(index == (4 || 5)){  //  checking if the questiones number is 2 or 3
         title_changer.innerHTML="Put in the correct third conditional verb form:";
     }
-    */
-
+    // 
+    //
     //creating a new span and div tag for question and option and passing the value using array index
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
