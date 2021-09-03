@@ -137,7 +137,8 @@ body{
 
 .quiz_box header .timer{
     color: #004085;
-    background: #cce5ff;
+    background: #9ea9b4;
+    background: transparent;
     border: 1px solid #b8daff;
     height: 45px;
     padding: 0 8px;
@@ -150,7 +151,7 @@ body{
 
 .quiz_box header .timer .time_left_txt{
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
     user-select: none;
 }
 
@@ -182,7 +183,7 @@ section{
 }
 
 section .que_text{
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 600;
 }
 
