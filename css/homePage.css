@@ -10,7 +10,9 @@ h3 {
 
 body{
   background-color: black;
-  overflow-x: hidden;
+  width: 100vw;
+  height: auto;
+  
 }
 
 /*Intro css*/
@@ -30,8 +32,8 @@ body{
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 26px;
   line-height: 1.8;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   
   
 }
@@ -161,8 +163,7 @@ img {
   margin-top:-5%;
   position: absolute;
   z-index: -5;
-  position: absolute;
-  max-width: max-content;
+  max-width:1000px;
   
 }
 
