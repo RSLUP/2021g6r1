@@ -14,18 +14,36 @@
 </head>
 <body>
         <!--Horizontal Navigation Bar-->
-    <div id="navBar" class="top">
-        <ul>
-            <li><a href="homePage.html">Home</a></li>
-            <li><a href="homePage.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
-    </div>
+     <div class="topnav" id="myTopnav" onload="navBar()">
+        <a href="#home" class="active">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Coursers
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Reading</a>
+            <a href="html/Writing/writingPage.html">Writing</a>
+            <a href="#">Listening</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Exercises
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Reading Test</a>
+            <a href="#">Writing Test</a>
+            <a href="#">Listening Test</a>
+          </div>
+        </div>
+        <a href="#contact">About</a>
+        <a href="#about">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <!--Vertical Navigation Bar-->
     <div id="VnavBar">
         <ul>
