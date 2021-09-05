@@ -26,11 +26,11 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(19); //calling startTimer function
-    startTimerLine(1); //calling startTimerLine function  ///test value added previous value=(0)\\\
+    startTimer(15); //calling startTimer function
+    startTimerLine(0); //calling startTimerLine function
 }
 
-let timeValue = 19;
+let timeValue =  15;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -45,7 +45,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 19; 
+    timeValue = 15; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -88,23 +88,9 @@ next_btn.onclick = ()=>{
     }
 }
 
-//const title_changer = quiz_box.querySelector(".header .title"); //tracking the title class
-
 // getting questions and options from array
 function showQuetions(index){
     const que_text = document.querySelector(".que_text");
-
-    //test case for conditional forms
-    /*if(index == (0 || 1)){
-        title_changer.innerHTML="Put the verb into the correct first conditional form:";
-    }else
-    if (index == (2 || 3)) {        //checking if the questiones number is 2 or 3
-        title_changer.innerHTML="Put the verb into the correct second conditional form:";
-    } else 
-    if(index == (4 || 5)){          //checking if the questiones number is 2 or 3
-        title_changer.innerHTML="Put in the correct third conditional verb form:";
-    }
-    */
 
     //creating a new span and div tag for question and option and passing the value using array index
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
@@ -169,7 +155,7 @@ function showResult(){
         let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
-    else if(userScore > 1){ // if user scored more than 1
+    else if(userScore > 2){ // if user scored more than 1
         let scoreTag = '<span>and nice 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
@@ -209,7 +195,7 @@ function startTimer(time){
 }
 
 function startTimerLine(time){
-    counterLine = setInterval(timer, 38);
+    counterLine = setInterval(timer, 29);
     function timer(){
         time += 1; //upgrading time value with 1
         time_line.style.width = time + "px"; //increasing width of time_line with px by time value

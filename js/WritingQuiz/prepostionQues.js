@@ -2,56 +2,56 @@ let questions = [
     {
     numb: 1,
     question: "Anna has returned ______ her home town.",
-    answer: "to ",
+    answer: "To",
     options: [
-      "",
-      "to",
-      "",
-      ""
+      "At",
+      "To",
+      "On",
+      "By"
     ]
   },
     {
     numb: 2,
     question: "Are the boys still swimming ______ the pool?",
-    answer: "in",
+    answer: "In",
     options: [
-      "",
-      "",
-      "in",
-      ""
+      "At",
+      "It",
+      "In",
+      "On"
     ]
   },
     {
     numb: 3,
     question: "We drove _____ the river for an hour but turned north before we reached it.",
-    answer: "toward",
+    answer: "Toward",
     options: [
-      "toward",
-      "",
-      "",
-      ""
+      "Toward",
+      "On",
+      "At",
+      "Above"
     ]
   },
     {
     numb: 4,
     question: "The baby spilled his cereal ______ the floor.",
-    answer: "on",
+    answer: "On",
     options: [
-      "",
-      "",
-      "",
-      "on"
+      "In",
+      "At",
+      "Into",
+      "On"
     ]
   },
     {
     numb: 5,
     question: "Matthew and Michelle moved the table ______ the dining room.",
-    answer: "into",
+    answer: "Into",
     options: [
-      "into",
-      "",
-      "",
-      ""
+      "Into",
+      "Among",
+      "Beyond",
+      "Beside"
     ]
   },
 ];
