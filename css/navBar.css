@@ -149,6 +149,35 @@
     padding-top: 5px;
    
 }
+/*previous next buttons*/
+#prvnextbtn a {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+#prvnextbtn a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#prvnextbtn .previous {
+  background-color: #0e0c01;
+  color: white;
+}
+
+#prvnextbtn .next {
+  background-color: #0e0c01;
+  color: white;
+  margin-left:850px;
+ 
+}
+
+#prvnextbtn .round {
+  border-radius: 100%;
+}
+
+
 /*footer*/
 footer{
     border-top: 1px solid black;
