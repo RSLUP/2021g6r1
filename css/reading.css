@@ -1,0 +1,49 @@
+.collapsible {
+    background-color: rgb(58, 56, 56);
+    color: rgb(250, 246, 246);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 2px;
+    
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(94, 4, 4);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f7f6f2;
+  }
+
+  #Read {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #Head {
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  #Topic {
+    padding-left: 15px;
+    padding-top: 5px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(53, 4, 4);
+    font-style: italic;
+  }
