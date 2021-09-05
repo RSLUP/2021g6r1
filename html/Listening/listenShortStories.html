@@ -13,22 +13,41 @@
     <link rel="stylesheet" href="../../css/listening.css">
     
     <title>Short Stories</title>
+    <script src="../../js/index.js"></script>
 </head>
-
 <body>
-    <!--Horizontal Navigation Bar-->
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#cards">Courses</a></li>
-            <li><a href="../index.html#cards">About Us</a></li>
-            <li><a href="../index.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+  <!--Navigation Bar-->
+
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html#aboutUs" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="#">Writing Test</a>
+        <a href="#">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html">About us</a>
+    <a href="../../index.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
     
     
     <!--Vertical Navigation Bar-->

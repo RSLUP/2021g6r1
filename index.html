@@ -17,41 +17,43 @@
     <link rel="stylesheet" href="css/navBar.css" />
 
     <script src="js/index.js"></script>
-
   </head>
-  <body onload="showSlides()">
+  <body>
     <!--Navigation Bar-->
 
-    <div class="topnav" id="myTopnav" onload="navBar()">
-      <a href="index.html.#intro" class="active">Home</a>
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="#intro" class="active">Home</a>
       <div class="dropdown">
         <button class="dropbtn" onclick="location.href ='#courses'">
           Coursers
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="#">Reading</a>
+          <a href="html/Reading/reading.html">Reading</a>
           <a href="html/Writing/writingPage.html">Writing</a>
-          <a href="#">Listening</a>
+          <a href="html/Listening/listeningPage.html">Listening</a>
         </div>
       </div>
       <div class="dropdown">
-        <button class="dropbtn" >
+        <button class="dropbtn">
           Exercises
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="">Reading Test</a>
+          <a href="html/Reading/quizReadingTest.html">Reading Test</a>
           <a href="#">Writing Test</a>
           <a href="#">Listening Test</a>
         </div>
       </div>
-      <a href="#contact">About</a>
+      <a href="#aboutUs">About us</a>
       <a href="#about">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="navBar()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
+
+    <!-- mid -->
+
     <div id="intro">
       <p id="hdtext">
         <img src="media/img/bgGirl.png" />
@@ -63,7 +65,6 @@
       <p>OUR COURSERS</p>
     </div>
     <div id="courses">
-
       <div id="leftBox">
         <div id="rightfloat">
           <img id="bg" src="media/img/bgback.JPG" />
@@ -75,18 +76,27 @@
           To imagine over texts in a multifaceted involving to interact with the
           meaningful journey.
         </p>
-        <button id ="button1"  class="button"
-        onclick="location.href ='html/Reading/rea';"><span>Learn</span></button>
-        <button  id ="button1"  class="button"><span>Test</span></button>
+        <button
+          id="button1"
+          class="button"
+          onclick="location.href ='html/Reading/rea';"
+        >
+          <span>Learn</span>
+        </button>
+        <button
+          id="button1"
+          class="button"
+          onclick="location.href ='html/Reading/quizReadingTest.html';"
+        >
+          <span>Test</span>
+        </button>
       </div>
-
 
       <br />
       <div id="rightBox">
         <div id="leftfloat">
-          <img id="rghtImg" src="media/img/writing.jpg" />
+          <img id="rghtImg" src="media/img/writing (2).jpg" />
           <img id="bg" src="media/img/bgback.JPG" />
-
         </div>
 
         <h2>Writing</h2>
@@ -95,9 +105,14 @@
           language of thinking into a form that has knowledge transforming
           effects.
         </p>
-        <button id ="button2"  class="button"
-        onclick="location.href ='html/Writing/writingPage.html';"><span>Learn</span></button>
-        <button  id ="button2" class="button"><span>Test</span></button>
+        <button
+          id="button2"
+          class="button"
+          onclick="location.href ='html/Writing/writingPage.html';"
+        >
+          <span>Learn</span>
+        </button>
+        <button id="button2" class="button"><span>Test</span></button>
       </div>
 
       <br />
@@ -105,7 +120,6 @@
         <div id="rightfloat">
           <img class="lsntimge" id="lftImg" src="media/img/listening.jpg" />
           <img id="bg" src="media/img/bgback.JPG" />
-
         </div>
 
         <h2>Listening</h2>
@@ -113,93 +127,163 @@
           To make sense of spoken language accompanied by visual input and other
           sounds in an effective and durable format.
         </p>
-        <button id ="button1" class="button"><span>Learn</span></button>
-        <button id ="button1" class="button"><span>Test</span></button>
+        <button
+          id="button1"
+          class="button"
+          onclick="location.href ='html/Listening/listeningPage.html';"
+        >
+          <span>Learn</span>
+        </button>
+        <button id="button1" class="button"><span>Test</span></button>
       </div>
     </div>
     <div id="courseHead">
-      <p>ABOUT US</p>
+      <p id="aboutUs">ABOUT US</p>
     </div>
     <div id="class">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/oshini.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Oshini Bandara</h1>
+            <p>Sabaragmuwa University</p>
+          </div>
+        </div>
+      </div>
+
+      <div  class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/Ranjana.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Ranjana Perera</h1>
+            <p>Sabaragmuwa University</p>
+          </div>
+        </div>
+      </div>
 
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            <img
+              src="media/img/Thamali1.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
           </div>
           <div class="flip-card-back">
-            <h1>John Doe</h1> 
-            <p>Architect & Engineer</p> 
-            <p>We love that guy</p>
+            <h1>Thamali Abeywarne</h1>
+            <p>Sabaragmuwa University</p>
           </div>
         </div>
       </div>
-      
+
       <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
-            </div>
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/abdul.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
           </div>
-        </div>
-      
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
-            </div>
-          </div>
-        </div>
-      
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
-            </div>
-          </div>
-        </div>
-      
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
-            </div>
-          </div>
-        </div>
-      
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
-            </div>
+          <div class="flip-card-back">
+            <h1>Abdur Rahman</h1>
+            <p>NIBM</p>
           </div>
         </div>
       </div>
-      <p>hdhd</p>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/Tharindu.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Tharindu Liyanage</h1>
+            <p>IIT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/Gayan.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Samaraweera Gayan</h1>
+            <p>NIBM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/shashika.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Sashika Abeykoon</h1>
+            <p>NIBM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/Medha.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Medha Dharani</h1>
+            <p>Sabaragmuwa University</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="media/img/Shahmy.png"
+              alt="Avatar"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Shahmy Saneef</h1>
+            <p>NIBM</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
