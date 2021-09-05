@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Quiz App | CodingNepal</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- FontAweome CDN Link for Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../../css/quizstyle.css">
 </head>
-<body style="background-color: rgba(rgba(60, 107, 119, 0.212), green, blue, alpha);">
+<body>
     <!-- start Quiz button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
-
-    <!-- Info Box -->
+    <div class="start_btn"><button>Start Test</button></div>
+	
+	    <!-- Info Box -->
     <div class="info_box">
         <div class="info-title"><span>Some Rules of this Quiz</span></div>
         <div class="info-list">
@@ -28,13 +26,29 @@
         </div>
     </div>
 
+    <!-- Info Box -->
+    <div class="paragraph_box">
+        <div class="info-title"><span>Listen the song and answer the questions.</span></div>
+        <div class="info-list">
+		<center>
+		  <div class="info">You can answer the questions while listening the song.</div>
+            <audio controls>
+			<source src="../../media/audio/DidoSong.mp3" type="audio/mpeg">
+			</audio>
+		</center>
+        </div>
+        <div class="buttons">
+            <button class="continue_para">Continue</button>
+        </div>
+    </div>
+
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="title">article (a, an, or the or leave the space blank if no article is needed.)</div>
+            <div class="title">Listening Test 1</div>
             <div class="timer">
                 <div class="time_left_txt">Time Left</div>
-                <div class="timer_sec">20</div>
+                <div class="timer_sec">15</div>
             </div>
             <div class="time_line"></div>
         </header>
@@ -52,7 +66,7 @@
             <div class="total_que">
                 <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
-            <button class="next_btn">Next Que</button>
+            <button class="next_btn">Next</button>
         </footer>
     </div>
 
@@ -69,13 +83,14 @@
             <button class="restart">Replay Quiz</button>
             <button class="quit">Quit Quiz</button>
         </div>
+		<div class="buttons"><button class="exit" onclick="document.location='quizListeningTest.html'"><span>exit</span></button></div>
     </div>
 
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
-    <script src="js/questions.js"></script>
+    <script src="../../js/listeningQuestionOne.js"></script>
 
     <!-- Inside this JavaScript file I've coded all Quiz Codes -->
-    <script src="js/script.js"></script>
+    <script src="../../js/scriptListeningOne.js"></script>
 
 </body>
 </html>
