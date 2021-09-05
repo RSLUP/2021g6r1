@@ -25,7 +25,9 @@ table{
     text-align: center;
 }
 td{
-    padding: 30px;
+    padding: 20px;
+   vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 25px
 }
-
 

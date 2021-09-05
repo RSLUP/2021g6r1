@@ -3,143 +3,203 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/8173c0abca.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/homeSlideShow.js"></script>
-    <link rel="stylesheet" href="css/homePage.css" />
+    <title>Britannia</title>
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/navBar.css" />
-   
-   
-    <title>LearnEnglish</title>	
-	<link rel="shortcut icon" type="image/jpg" href="media/img/favicon.png"/>
-  </head>
-  <body  onload='showSlides()'>
 
+    <script src="js/index.js"></script>
+
+  </head>
+  <body onload="showSlides()">
     <!--Navigation Bar-->
 
-
-    <div id="navBar" clss="top">
-      <ul>
-        <li><a>Home</a></li>
-        <li><a href="#cards">Courses</a></li>
-        <li><a>About Us</a></li>
-        <li  onclick="location.href ='html/contact.html';"><a>Contact</a></li>
-        <button class="logButton" id="logIn"> Login</button>
-      </ul>
+    <div class="topnav" id="myTopnav" onload="navBar()">
+      <a href="index.html.#intro" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Reading</a>
+          <a href="html/Writing/writingPage.html">Writing</a>
+          <a href="#">Listening</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" >
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="">Reading Test</a>
+          <a href="#">Writing Test</a>
+          <a href="#">Listening Test</a>
+        </div>
+      </div>
+      <a href="#contact">About</a>
+      <a href="#about">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-   
-    <div class="slideshow-container">
-
-      <div class="mySlides fade" >
-        <img src="media/img/1.jpg" >
-      </div>
-      
-      <div class="mySlides fade" >
-        <img src="media/img/2.jpg" >
-      </div>
-      
-      <div class="mySlides fade" >
-        <img src="media/img/3.jpg" >
-      </div>
-      
-      <div class="mySlides fade" >
-        <img src="media/img/4.jpg" >
-      </div>
-      
-      <div class="mySlides fade" >
-        <img src="media/img/5.jpeg" >
-      </div>
-      
-      <div class="mySlides fade" >
-        <img src="media/img/6.jpg" >
-      </div>
-      
-      <div class="mySlides fade" >
-        <img src="media/img/7.jpg" >
-      </div>
-      
-      
-      <div class="mySlides fade" >
-        <img src="media/img/8.jpg" >
-      </div>
-      
-      </div>
-     
-    <div id="intro" >
-      
-      <p id="center"><span class="heading">English is EASY!</span></p>
-      <p class="prgph">
-        
-        English is the most used and spoken language around the world. At least
-        one out of 5 people can speak or understand English!... Learning
-        English will increase your chances to get a job, participate in
-        discussions, and improve your networking skills. English helps you
-        increase your educational opportunities.
+    <div id="intro">
+      <p id="hdtext">
+        <img src="media/img/bgGirl.png" />
+        English will make you who are taking steps to cross the vast ocean of
+        knowledge to reach the land of success at the dawn of the world.
       </p>
-      
     </div>
-    
-    <div id="cards" class="features">
-      
-      <div class="box">
-        <div class="card">
-          <h3>Reading</h3>
-          <p>Some text</p>
-          <button class="button" onclick="location.href ='html/Reading/reading.html';">
-            <span>Learn</span></button>
-          <br />
-          <button class="button"
-		  onclick="location.href ='html/Reading/quizReadingTest.html';">
-		  <span>Test</span></button>
+    <div id="courseHead">
+      <p>OUR COURSERS</p>
+    </div>
+    <div id="courses">
+
+      <div id="leftBox">
+        <div id="rightfloat">
+          <img id="bg" src="media/img/bgback.JPG" />
+          <img id="lftImg" src="media/img/reading.jpg" />
         </div>
+
+        <h2>Reading</h2>
+        <p>
+          To imagine over texts in a multifaceted involving to interact with the
+          meaningful journey.
+        </p>
+        <button id ="button1"  class="button"
+        onclick="location.href ='html/Reading/rea';"><span>Learn</span></button>
+        <button  id ="button1"  class="button"><span>Test</span></button>
       </div>
 
-      <div class="box">
-        <div class="card">
-          <h3>Writing</h3>
-          <p>Some text</p>
-          <button
-            class="button"
-            onclick="location.href ='html/Writing/writingPage.html';"
-          >
-            <span>Learn</span>
-          </button>
-          <br />
-          <button class="button"
-		  onclick="location.href ='html/Writing/Quiz/quizWritingTest.html';">
-		  <span>Test</span></button>
+
+      <br />
+      <div id="rightBox">
+        <div id="leftfloat">
+          <img id="rghtImg" src="media/img/writing.jpg" />
+          <img id="bg" src="media/img/bgback.JPG" />
+
         </div>
+
+        <h2>Writing</h2>
+        <p>
+          To empower with proficiency in the communication of rendering a
+          language of thinking into a form that has knowledge transforming
+          effects.
+        </p>
+        <button id ="button2"  class="button"
+        onclick="location.href ='html/Writing/writingPage.html';"><span>Learn</span></button>
+        <button  id ="button2" class="button"><span>Test</span></button>
       </div>
-  
-      <div class="box">
-        <div class="card">
-          <h3>Listening</h3>
-          <p>Some text</p>
-          <button class="button" onclick="location.href ='html/Listening/listening.html';"
-          ><span>Learn</span></button>
-          <br />
-          <button class="button"
-		  onclick="location.href ='html/Listening/quizListeningTest.html';">
-		  <span>Test</span></button>
+
+      <br />
+      <div id="leftBox">
+        <div id="rightfloat">
+          <img class="lsntimge" id="lftImg" src="media/img/listening.jpg" />
+          <img id="bg" src="media/img/bgback.JPG" />
+
         </div>
+
+        <h2>Listening</h2>
+        <p>
+          To make sense of spoken language accompanied by visual input and other
+          sounds in an effective and durable format.
+        </p>
+        <button id ="button1" class="button"><span>Learn</span></button>
+        <button id ="button1" class="button"><span>Test</span></button>
       </div>
     </div>
-   
-</div>
-    <!--Page footer-->
-    <footer id="footer">
-      <p id="footerTextHome">LearnEnglish is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
+    <div id="courseHead">
+      <p>ABOUT US</p>
+    </div>
+    <div id="class">
 
-        Copyright 2021 by Refsnes Data. All Rights Reserved.
-       LearnEnglish is Powered by RslUP</p>
-      <div class="icon">
-        <i id="icon" class="fab fa-linkedin"></i>
-        <i id="icon" class="fab fa-facebook-square"></i>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1> 
+            <p>Architect & Engineer</p> 
+            <p>We love that guy</p>
+          </div>
+        </div>
       </div>
-    </footer>
-   
+      
+      <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
   </body>
 </html>

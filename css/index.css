@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to right, #0e0240, #bf1260);
+}
+
+
+#intro {
+  overflow: hidden;
+  padding-top: 5%;
+  background-image: url(../media/img/123.jpg);
+  background-size: cover;
+  height: 550px;
+}
+#intro img {
+  position: static;
+  padding-top: 5%;
+  float: left;
+  height: 500px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#hdtext {
+  padding-right: 5%;
+  text-align: right;
+  font-size: 55px;
+  line-height: 90.96px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+}
+
+#courseHead {
+ 
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  text-align: center;
+  font-size: 150px;
+  font-weight: 1000;
+  color: #f9f9f900;
+  -webkit-text-stroke: 2px rgb(248, 241, 241);
+}
+
+#courses {
+  background-color: whitesmoke;
+}
+#rightBox,
+#leftBox {
+  padding-top: 2%;
+}
+#courses h2 {
+  font-size: 150px;
+  font-weight: 1000;
+  margin: 0;
+  color: #f9f9f900;
+  -webkit-text-stroke: 2px rgb(24, 23, 23);
+}
+
+#leftBox {
+  text-align: left;
+  margin-bottom: 5%;
+  overflow: hidden;
+  height: 800px;
+}
+#leftBox h2 {
+  margin-left: 15%;
+}
+#rightBox {
+  text-align: right;
+  margin-bottom: 5%;
+  overflow: hidden;
+  height: 800px;
+}
+#rightBox h2 {
+  margin-right: 15%;
+}
+
+#rightfloat {
+  padding-top: 15%;
+  padding-right: 5%;
+  position: relative;
+  left: 10px;
+  float: right;
+}
+#leftfloat {
+  padding-top: 15%;
+  position: relative;
+  top: 0;
+  left: 10px;
+  float: left;
+}
+
+#leftBox #bg {
+  height: 500px;
+  position: absolute;
+  float: right;
+  top: 370px;
+  left: 30px;
+  z-index: 1;
+}
+
+#lftImg {
+  height: 500px;
+  position: relative;
+  top: 0px;
+  right:  0px;
+  width: 400px;
+  z-index: 2;
+}
+
+#rightBox #bg {
+  height: 500px;
+  position: absolute;
+  float: right;
+  top: 370px;
+  left: 0px;
+  z-index: 1;
+}
+#rghtImg {
+  height: 500px;
+  position: relative;
+  top: 0px;
+  left: 120px;
+  width: 400px;
+  z-index: 2;
+}
+
+
+
+#leftBox p {
+  padding-left: 5%;
+  padding-right: 35%;
+  padding-top: 30px;
+  text-align: left;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 90.96px;
+}
+
+#rightBox p {
+  padding-left: 45%;
+  padding-right: 5%;
+  padding-top: 30px;
+  text-align: left;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 90.96px;
+}
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #31198f, #df3983);
+  border: 1px solid black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 38px;
+  padding: 50px;
+  width: 350px;
+  transition: all 0.5s;
+  cursor: pointer;
+ 
+}
+
+#button2 {
+ 
+  margin-right: 5%;
+}
+
+#button1 {
+ 
+  margin-left: 5%;
+}
+
+.button:hover {
+  background-color: #f3a155;
+  color: #ffffff;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* aboutus flipCards */
+
+.flip-card {
+  float: left;
+  width: 25.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 10px;
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#class{
+margin-left: 15%;
+  
+  
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+}
