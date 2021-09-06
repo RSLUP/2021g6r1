@@ -259,15 +259,17 @@
     </div>
 
     <br><br>
-    <div id=prvnextbtn>
-    
-        <a href="../Writing/reciprocalPro.html" class="previous">&laquo; Previous</a>
-        
-        <a href="../Writing/relativePro.html" class="next">Next &raquo;</a>
-        <br><br>
-        </div>
+    <div id="back">
 
-
+        <button onclick="goBack()">Back</button>
+    </div>
+<br><br>
+</div>
+<script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
 
 
     </body>

@@ -114,6 +114,18 @@
     text-align: left;
   }
 }
+#back{
+  padding-left: 300px;
+}
+#back button{
+  background-color: #0a0a0a; 
+  padding: 18px 40px;
+  text-align: center;
+  color:ivory;
+  display:initial;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 
 /*Vertical Navigationbar*/
 
