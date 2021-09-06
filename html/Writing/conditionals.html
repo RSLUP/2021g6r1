@@ -13,39 +13,41 @@
     <script src="../../js/subCategory.js"></script>
 
     <title>Conditionals</title>
-</head>
-<body>
-    <!--Horizontal Navigation Bar-->
-    <div class="topnav" id="myTopnav" onload="navBar()">
-        <a href="#home" class="active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Coursers
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading</a>
-            <a href="html/Writing/writingPage.html">Writing</a>
-            <a href="#">Listening</a>
-          </div>
+    <script src="../../js/index.js"></script>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+  
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="../../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading//reading.html">Reading</a>
+          <a href="writingPage.html">Writing</a>
+          <a href="../Listening/listeningPage.html">Listening</a>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Exercises
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading Test</a>
-            <a href="#">Writing Test</a>
-            <a href="#">Listening Test</a>
-          </div>
-        </div>
-        <a href="#contact">About</a>
-        <a href="#about">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/quizReadingTest.html">Reading Test</a>
+          <a href="#">Writing Test</a>
+          <a href="#">Listening Test</a>
+        </div>
+      </div>
+      <a href="../../index.html">About us</a>
+      <a href="../../index.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
 
 
