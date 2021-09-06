@@ -23,27 +23,86 @@
     overflow: hidden;
     background-color: #f7f6f2;
   }
+  #table2{
+    
+    padding-bottom: 30px;
+   
+  }
+  #table2 th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table2 tr,td{
+    padding: 10px 10px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align:justify;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
 
+  }
   #Read {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 20px;
   }
   #Head {
     padding-left: 10px;
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     font-family: Poppins, Helvetica, serif;
     font-size: 40px;
     font-weight: bold;
   }
-  #Topic {
+  #Topic1 {
     padding-left: 15px;
-    padding-top: 5px;
+    padding-top: 10px;
     text-align: left;
     font-family: Poppins, Helvetica, serif;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(53, 4, 4);
+    color: #555;
     font-style: italic;
+  }
+  #Topic2 {
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(24, 2, 2);
+    font-style:initial;
+  }
+
+  #Topic {
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(14, 12, 12);
+    
+  }
+
+  #image{
+    width:"524";
+     height:"380";
+     padding-left: 300px;
+  }
+
+  #img{
+    padding-top: 80px;
+     padding-left: 500px;
+  }
+
+  
+  #list1 li{
+    padding:10px 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(29, 36, 2);
   }

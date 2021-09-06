@@ -14,50 +14,100 @@
     <title>Story Reading 03</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+       
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-<body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="#">Writing Test</a>
+        <a href="#">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html">About us</a>
+    <a href="../../index.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+      
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">The Shrinking Lake</p>
-    <p id="Topic">Read about this disappearing lake in central Africa, then answer the questions putting either <b>T</b> for true, <b>F</b> for false or <b>NW</b> for "not written in the text".</p>
+    <p id="Topic1">Read about this disappearing lake in central Africa, then answer the questions putting either <b>T</b> for true, <b>F</b> for false or <b>NW</b> for "not written in the text".</p>
 
 <HR style="width:80%;color:#800000;">
 
 <div class="long-reading">
-<p>Rikki Mbaza has a very English name but his part of central Africa is suffering from a problem that few in England would have to put up with: a lack of rain so acute that Rikki's livelihood is literally evaporating away.</p>
+<p id="Topic2">Rikki Mbaza has a very English name but his part of central Africa is suffering from a problem that few in England would have to put up with: a lack of rain so acute that Rikki's livelihood is literally evaporating away.</p>
 
-<p>"I would love to have the English weather here in Chad. Then the lake would not go away."</p>
+<p id="Topic2">"I would love to have the English weather here in Chad. Then the lake would not go away."</p>
 
-<p>Rikki Mbaza lives in the town of Bol near the shores of Lake Chad, a lake that has shrunk by 90% in the last 40 years. A lack of rain is only one of many culprits being blamed for this emerging disaster.</p>
+<p id="Topic2">Rikki Mbaza lives in the town of Bol near the shores of Lake Chad, a lake that has shrunk by 90% in the last 40 years. A lack of rain is only one of many culprits being blamed for this emerging disaster.</p>
 
-<p>"I am a fisherman. For me, it is like watching my life draining away every day. The fishing is getting worse and worse in the lake. They are getting smaller and I think the fish breeding has been disrupted by the reduction in area and in depth." Lake Chad is only a metre deep in most places.</p>
+<p id="Topic2">"I am a fisherman. For me, it is like watching my life draining away every day. The fishing is getting worse and worse in the lake. They are getting smaller and I think the fish breeding has been disrupted by the reduction in area and in depth." Lake Chad is only a metre deep in most places.</p>
 
-<p>Rikki struggles now to provide enough food and income for his wife Achta and their four children. Achta has had to take up pottery in her spare time in order to try and boost the amount of money coming into the household every month.</p>
+<p id="Topic2">Rikki struggles now to provide enough food and income for his wife Achta and their four children. Achta has had to take up pottery in her spare time in order to try and boost the amount of money coming into the household every month.</p>
 
-<p>"Our rent doesn't go down with the level of the lake unfortunately," Mbaza complains. "We still have six mouths to feed but I need assistance from the government. They have left me to fend for myself in a desperate situation."</p>
+<p id="Topic2">"Our rent doesn't go down with the level of the lake unfortunately," Mbaza complains. "We still have six mouths to feed but I need assistance from the government. They have left me to fend for myself in a desperate situation."</p>
 
-<p>While one can understand Rikki Mbaza's frustration with his government, his accusatory tone is perhaps a little unfair. The Chad government has often seemed like a powerless, rudderless boat caught in the storm of international politics.</p>
+<p id="Topic2">While one can understand Rikki Mbaza's frustration with his government, his accusatory tone is perhaps a little unfair. The Chad government has often seemed like a powerless, rudderless boat caught in the storm of international politics.</p>
 
-<p>Angela Muscovite at the Center For African Politics at UCLA sees little reason for optimism in the case of the shrinking lake in the African heartland. "The story of Chad Lake is a modern day environmental tragedy. This is a body of water that, in 1960 was over 25,000 km2 in size - now it's less than 10% of that."</p>
+<p id="Topic2">Angela Muscovite at the Center For African Politics at UCLA sees little reason for optimism in the case of the shrinking lake in the African heartland. "The story of Chad Lake is a modern day environmental tragedy. This is a body of water that, in 1960 was over 25,000 km2 in size - now it's less than 10% of that."</p>
 
-<p>"It has been so over-exploited and it is an issue the whole international community, obviously more so those governments in Africa, need to co-operate on to find a resolution. And that isn't going to happen any time soon. By the time it does, they'll be arguing over a puddle in the middle of the desert. It's sad but that's how I see things panning out."</p>
+<p id="Topic2">"It has been so over-exploited and it is an issue the whole international community, obviously more so those governments in Africa, need to co-operate on to find a resolution. And that isn't going to happen any time soon. By the time it does, they'll be arguing over a puddle in the middle of the desert. It's sad but that's how I see things panning out."</p>
 
-<p>The guilty parties, as so often in these cases, blame each other for the problems that now beset the lake. Charlie Vaughan, who teaches Environmental Science at Cambridge University in Britain, explains why the lake is going the way of the Dodo. "The main culprit is geography funnily enough. Chad, Niger, Nigeria and Cameroon all lay claim to the waters of this lake and you only need a five metre shoreline to be able to extract water from it. The whole area has been a target for massive irrigation schemes over the last couple of decades with each country's agricultural ministry blaming the other three for the problems. In an area with plentiful rainfall, it wouldn't be so much of a problem. This is a dry area."</p>
+<p id="Topic2">The guilty parties, as so often in these cases, blame each other for the problems that now beset the lake. Charlie Vaughan, who teaches Environmental Science at Cambridge University in Britain, explains why the lake is going the way of the Dodo. "The main culprit is geography funnily enough. Chad, Niger, Nigeria and Cameroon all lay claim to the waters of this lake and you only need a five metre shoreline to be able to extract water from it. The whole area has been a target for massive irrigation schemes over the last couple of decades with each country's agricultural ministry blaming the other three for the problems. In an area with plentiful rainfall, it wouldn't be so much of a problem. This is a dry area."</p>
 
-<p>None of this gesturing and buck-passing will help Rikki, Achta and their four children in the near future. "I am learning how to fix cars. I don't think cars will be disappearing soon and will certainly last longer than this lake will," muses the glum-looking fisherman. "There won't be any more fishermen in this area in ten years." And with that, he says he has to go and study how to remove and repair brake pads.</p>
+<p id="Topic2">None of this gesturing and buck-passing will help Rikki, Achta and their four children in the near future. "I am learning how to fix cars. I don't think cars will be disappearing soon and will certainly last longer than this lake will," muses the glum-looking fisherman. "There won't be any more fishermen in this area in ten years." And with that, he says he has to go and study how to remove and repair brake pads.</p>
 </div>
 
 <form name="form1" class="standard">
+  <div id="list1">
 <ol>
   <li>Rikki has spent some time travelling in England. <input type="text" name="box0" size="4"></li>
   <li>The lack of rain is not the only cause of the lake's reduction in size. <input type="text" name="box1" size="4"></li>
@@ -69,32 +119,32 @@
   <li>Charlie Vaughan says permission to extract water is given too easily. <input type="text" name="box7" size="4"></li>
   <li>The demands of agriculture have been largely responsible for the lake's problems. <input type="text" name="box8" size="4"></li>
   <li>Rikki will work in a garage when the fishing becomes too bad. <input type="text" name="box9" size="4"></li>
-</ol>
+</ol></div><br><br>
 <button type="button" class="collapsible">Answers</button>
 <div class="content">
-  <p>Question 1 -Actual Answer is: nw.<br>
+  <p id="Topic2">Question 1 -Actual Answer is: nw.<br><br>
 
-    Question 2 -Actual Answer is: t.<br>
+    Question 2 -Actual Answer is: t.<br><br>
     
-    Question 3 -Actual Answer is: nw.<br>
+    Question 3 -Actual Answer is: nw.<br><br>
     
-    Question 4 -Actual Answer is: t.<br>
+    Question 4 -Actual Answer is: t.<br><br>
     
-    Question 5 -Actual Answer is: t.<br>
+    Question 5 -Actual Answer is: t.<br><br>
     
-    Question 6 -Actual Answer is: f.<br>
+    Question 6 -Actual Answer is: f.<br><br>
     
-    Question 7 -Actual Answer is: t.<br>
+    Question 7 -Actual Answer is: t.<br><br>
     
-    Question 8 -Actual Answer is: f.<br>
+    Question 8 -Actual Answer is: f.<br><br>
     
-    Question 9 -Actual Answer is: t.<br>
+    Question 9 -Actual Answer is: t.<br><br>
     
-    Question 10 -Actual Answer is: nw.<br>
+    Question 10 -Actual Answer is: nw.<br><br>
     
     </p>
 </div>
-    </form>
+    </form><br><br><br><br>
     </div>
 <script>
 var coll = document.getElementsByClassName("collapsible");

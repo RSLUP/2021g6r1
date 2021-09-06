@@ -1,11 +1,11 @@
 #Topic {
     padding-left: 150px;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     font-family: Poppins, Helvetica, serif;
     font-size: 40px;
     font-weight: bold;
-    color: #555;
+    color: rgb(14, 12, 12);
     
   }
 
@@ -16,6 +16,7 @@
     font-family: Poppins, Helvetica, serif;
     font-size: 20px;
     font-weight: bold;
+    color: #555;
     font-style: italic;
 }
 

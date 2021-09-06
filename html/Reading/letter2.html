@@ -14,26 +14,75 @@
     <title>Letter Example 02</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+       
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-    <body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="#">Writing Test</a>
+        <a href="#">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html">About us</a>
+    <a href="../../index.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+       
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">Letter Sentence Insertion</p>
-    <p id="Topic">Read the following letter. For each box/space, use your mouse to drag the correct sentence from the list of missing sentences below.</p>
+    <p id="Topic1">Read the following letter. For each box/space, use your mouse to drag the correct sentence from the list of missing sentences below.</p>
 
 <HR style="width:80%;color:#800000;">
 <form name="form1" class="standard">
-<P>Dear Jane,
+<P id="Topic2">Dear Jane,
 <BR><BR>
 Thank you for your last letter (1)&nbsp;<input type=text name="box0" size="24">. I am happy that you have decided to start learning French like me. If you want, we can go on holiday together next summer to France and then (2)&nbsp;<input type=text name="box1" size="24">
 . When I come to visit you in London in the spring, we can talk together in French if you want.
@@ -47,57 +96,57 @@ I am going to do my French homework now!
 Au revoir
 <BR><BR>
 Kate 
-
+</P>
 </form>
 <BR>
 
-<P><B>The sentences.</B></P>
+<P id="Topic2"><B>The sentences.</B></P>
 
-<P>&nbsp;1. and other historical places</P>
+<P id="Topic2">&nbsp;1. and other historical places</P>
 
-<P>&nbsp;2. we can practice our French together</P>
+<P id="Topic2">&nbsp;2. we can practice our French together</P>
 
-<P>&nbsp;3. the whole four days</P>
+<P id="Topic2">&nbsp;3. the whole four days</P>
 
-<P>&nbsp;4. doing this month</P>
+<P id="Topic2">&nbsp;4. doing this month</P>
 
-<P>&nbsp;5. but me and Melissa</P>
+<P id="Topic2">&nbsp;5. but me and Melissa</P>
 
-<P>&nbsp;6. which I received last Saturday</P>
+<P id="Topic2">&nbsp;6. which I received last Saturday</P>
 
-<P>&nbsp;7. we were so cold</P>
+<P id="Topic2">&nbsp;7. we were so cold</P>
 
-<P>&nbsp;8. My uncle works there</P>
+<P id="Topic2">&nbsp;8. My uncle works there</P>
 
-<P>&nbsp;9. the last time you were here</P>
+<P id="Topic2">&nbsp;9. the last time you were here</P>
 
-<P>10. because I want to work</P> 
+<P id="Topic2">10. because I want to work</P> <br><br>
         
         
     <button type="button" class="collapsible">Answers</button>
 <div class="content">
-  <p>Question 1 -Actual Answer is: which I received last Saturday.<br>
+  <p id="Topic2">Question 1 -Actual Answer is: which I received last Saturday.<br><br>
 
-    Question 2 -Actual Answer is: we can practice our French together.<br>
+    Question 2 -Actual Answer is: we can practice our French together.<br><br>
     
-    Question 3 -Actual Answer is: the last time you were here.<br>
+    Question 3 -Actual Answer is: the last time you were here.<br><br>
     
-    Question 4 -Actual Answer is: the whole four days.<br>
+    Question 4 -Actual Answer is: the whole four days.<br><br>
     
-    Question 5 -Actual Answer is: we were so cold.<br>
+    Question 5 -Actual Answer is: we were so cold.<br><br>
     
-    Question 6 -Actual Answer is: and other historical places.<br>
+    Question 6 -Actual Answer is: and other historical places.<br><br>
     
-    Question 7 -Actual Answer is: but me and Melissa.<br>
+    Question 7 -Actual Answer is: but me and Melissa.<br><br>
     
-    Question 8 -Actual Answer is: My uncle works there.<br>
+    Question 8 -Actual Answer is: My uncle works there.<br><br>
     
-    Question 9 -Actual Answer is: because I want to work.<br>
+    Question 9 -Actual Answer is: because I want to work.<br><br>
     
-    Question 10 -Actual Answer is: doing this month.<br>
+    Question 10 -Actual Answer is: doing this month.<br><br>
     
     </p>
-</div>
+</div><br><br><br><br>
 </div>
 <script>
 var coll = document.getElementsByClassName("collapsible");

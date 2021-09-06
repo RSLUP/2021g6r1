@@ -14,48 +14,97 @@
     <title>Letter Example 03</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+       
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-    <body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="#">Writing Test</a>
+        <a href="#">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html">About us</a>
+    <a href="../../index.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+     
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">Pen pals</p>
-    <p id="Topic">Read this letter from Milena to her pen-pal, Elena. There are six paragraphs. Match each paragraph to a subject by writing the correct letter <b>(A-F)</b> for what it talks about.</p>
+    <p id="Topic1">Read this letter from Milena to her pen-pal, Elena. There are six paragraphs. Match each paragraph to a subject by writing the correct letter <b>(A-F)</b> for what it talks about.</p>
 
 <HR style="width:80%;color:#800000;">
 
-<div class="reading">
-<p>Dear Elena,</p>
 
-<p>Thank you for the letter you sent me last week. I'm very happy to hear that you and Francesco are well and that your exam results were so good. Well done! I know you studied hard and you deserve your success.</p>
+<p id="Topic2">Dear Elena,</p>
 
-<p>Mine are next week so at the moment I'm studying a lot. I'm really nervous about them because, if you remember, I was ill for a couple of months at the end of the year and so I missed a lot of lessons. When they finish I would like to come and visit you for a few days, if that's OK with your mom and dad.</p>
+<p id="Topic2">Thank you for the letter you sent me last week. I'm very happy to hear that you and Francesco are well and that your exam results were so good. Well done! I know you studied hard and you deserve your success.</p>
 
-<p>Do you remember I told you about my friend Amanda from Scotland? She's going to come here next month and is going to stay for two weeks. I'd like you to come too so you can meet her and we can all go out together. What do you think? We can practice our English!</p>
+<p id="Topic2">Mine are next week so at the moment I'm studying a lot. I'm really nervous about them because, if you remember, I was ill for a couple of months at the end of the year and so I missed a lot of lessons. When they finish I would like to come and visit you for a few days, if that's OK with your mom and dad.</p>
 
-<p>I remember last year we had such a good time. The beaches near your house are wonderful and I really enjoyed meeting your friends (especially Roberto! Is he still single?) I can't remember the name of the disco next to the train station but I'd like to go there again - it was fun.</p>
+<p id="Topic2">Do you remember I told you about my friend Amanda from Scotland? She's going to come here next month and is going to stay for two weeks. I'd like you to come too so you can meet her and we can all go out together. What do you think? We can practice our English!</p>
 
-<p>Oh, guess what! Jason broke his arm last weekend! He went to the skateboard park with his friends from school and fell down some steps (he doesn't know how to skateboard!) He's got a plaster cast and he's going to have it for at least six weeks. He's such an idiot!</p>
+<p id="Topic2">I remember last year we had such a good time. The beaches near your house are wonderful and I really enjoyed meeting your friends (especially Roberto! Is he still single?) I can't remember the name of the disco next to the train station but I'd like to go there again - it was fun.</p>
 
-<p>My mom's calling me for lunch so I'll finish this letter now. Say hello to your family and don't forget to congratulate Francesco for me.</p>
+<p id="Topic2">Oh, guess what! Jason broke his arm last weekend! He went to the skateboard park with his friends from school and fell down some steps (he doesn't know how to skateboard!) He's got a plaster cast and he's going to have it for at least six weeks. He's such an idiot!</p>
 
-<p>lots of love<br>
+<p id="Topic2">My mom's calling me for lunch so I'll finish this letter now. Say hello to your family and don't forget to congratulate Francesco for me.</p>
+
+<p id="Topic2">lots of love<br>
 Milena &nbsp;&nbsp;x x</p>
 
-<p>PS. Say Hi to Roberto too!</p>
+<p id="Topic2">PS. Say Hi to Roberto too!</p>
 
-</div>
 
-<p>
+
+<div id="list1">
 <ol style="list-style-type: upper-alpha;">
   <li>Memories</li>
   <li>Well done!</li>
@@ -63,34 +112,34 @@ Milena &nbsp;&nbsp;x x</p>
   <li>Me</li>
   <li>News</li>
   <li>Bye!</li>
-</ol>
-</p>
+</ol></div>
+
 
 <form name="form1" class="standard">
-<p>Paragraph 1. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box0" size="7"></p>
-<p>Paragraph 2. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box1" size="7"></p>
-<p>Paragraph 3. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box2" size="7"></p>
-<p>Paragraph 4. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box3" size="7"></p>
-<p>Paragraph 5. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box4" size="7"></p>
-<p>Paragraph 6. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box5" size="7"></p>
+<p id="Topic2">Paragraph 1. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box0" size="7"></p>
+<p id="Topic2">Paragraph 2. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box1" size="7"></p>
+<p id="Topic2">Paragraph 3. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box2" size="7"></p>
+<p id="Topic2">Paragraph 4. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box3" size="7"></p>
+<p id="Topic2">Paragraph 5. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box4" size="7"></p>
+<p id="Topic2">Paragraph 6. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box5" size="7"></p>
 
     <button type="button" class="collapsible">Answers</button>
 <div class="content">
-  <p>Question 1 -Actual Answer is: b.<br>
+  <p id="Topic2">Question 1 -Actual Answer is: b.<br><br>
 
-    Question 2 -Actual Answer is: d.<br>
+    Question 2 -Actual Answer is: d.<br><br>
     
-    Question 3 -Actual Answer is: c.<br>
+    Question 3 -Actual Answer is: c.<br><br>
     
-    Question 4 -Actual Answer is: a.<br>
+    Question 4 -Actual Answer is: a.<br><br>
     
-    Question 5 -Actual Answer is: e.<br>
+    Question 5 -Actual Answer is: e.<br><br>
     
-    Question 6 -Actual Answer is: f.<br>
+    Question 6 -Actual Answer is: f.<br><br>
     
     </p>
 </div>
-</form>
+</form><br><br><br><br>
         
         
         </div>
