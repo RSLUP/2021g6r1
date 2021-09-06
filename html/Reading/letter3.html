@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/reading.css">
+    <link rel="stylesheet" href="../../css/navBar.css">
+    
+
+    <title>Letter Example 03</title>
+</head>
+<body>
+    <div id="navBar" clss="top">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../index.html#cards">Courses</a></li>
+            <li><a href="homePage.html#cards">About Us</a></li>
+            <li><a href="homePage.html#cards">Contact</a></li>
+            <div class="icon">
+                <i id="icon" class="fab fa-linkedin"></i>
+                <i id="icon" class="fab fa-facebook-square"></i>
+            </div>
+        </ul>
+    </div>
+    <body>
+<div id="Read">
+  <p id="Head">Pen pals</p>
+    <p id="Topic">Read this letter from Milena to her pen-pal, Elena. There are six paragraphs. Match each paragraph to a subject by writing the correct letter <b>(A-F)</b> for what it talks about.</p>
+
+<HR style="width:80%;color:#800000;">
+
+<div class="reading">
+<p>Dear Elena,</p>
+
+<p>Thank you for the letter you sent me last week. I'm very happy to hear that you and Francesco are well and that your exam results were so good. Well done! I know you studied hard and you deserve your success.</p>
+
+<p>Mine are next week so at the moment I'm studying a lot. I'm really nervous about them because, if you remember, I was ill for a couple of months at the end of the year and so I missed a lot of lessons. When they finish I would like to come and visit you for a few days, if that's OK with your mom and dad.</p>
+
+<p>Do you remember I told you about my friend Amanda from Scotland? She's going to come here next month and is going to stay for two weeks. I'd like you to come too so you can meet her and we can all go out together. What do you think? We can practice our English!</p>
+
+<p>I remember last year we had such a good time. The beaches near your house are wonderful and I really enjoyed meeting your friends (especially Roberto! Is he still single?) I can't remember the name of the disco next to the train station but I'd like to go there again - it was fun.</p>
+
+<p>Oh, guess what! Jason broke his arm last weekend! He went to the skateboard park with his friends from school and fell down some steps (he doesn't know how to skateboard!) He's got a plaster cast and he's going to have it for at least six weeks. He's such an idiot!</p>
+
+<p>My mom's calling me for lunch so I'll finish this letter now. Say hello to your family and don't forget to congratulate Francesco for me.</p>
+
+<p>lots of love<br>
+Milena &nbsp;&nbsp;x x</p>
+
+<p>PS. Say Hi to Roberto too!</p>
+
+</div>
+
+<p>
+<ol style="list-style-type: upper-alpha;">
+  <li>Memories</li>
+  <li>Well done!</li>
+  <li>Plans</li>
+  <li>Me</li>
+  <li>News</li>
+  <li>Bye!</li>
+</ol>
+</p>
+
+<form name="form1" class="standard">
+<p>Paragraph 1. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box0" size="7"></p>
+<p>Paragraph 2. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box1" size="7"></p>
+<p>Paragraph 3. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box2" size="7"></p>
+<p>Paragraph 4. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box3" size="7"></p>
+<p>Paragraph 5. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box4" size="7"></p>
+<p>Paragraph 6. &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="box5" size="7"></p>
+
+    <button type="button" class="collapsible">Answers</button>
+<div class="content">
+  <p>Question 1 -Actual Answer is: b.<br>
+
+    Question 2 -Actual Answer is: d.<br>
+    
+    Question 3 -Actual Answer is: c.<br>
+    
+    Question 4 -Actual Answer is: a.<br>
+    
+    Question 5 -Actual Answer is: e.<br>
+    
+    Question 6 -Actual Answer is: f.<br>
+    
+    </p>
+</div>
+</form>
+        
+        
+        </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
