@@ -23,7 +23,24 @@
     overflow: hidden;
     background-color: #f7f6f2;
   }
+  #table2{
+    
+    padding-bottom: 30px;
+   
+  }
+  #table2 th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table2 tr,td{
+    padding: 10px 10px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align:justify;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
 
+  }
   #Read {
     padding-top: 20px;
     padding-left: 250px;
@@ -73,4 +90,19 @@
     width:"524";
      height:"380";
      padding-left: 300px;
+  }
+
+  #img{
+    padding-top: 80px;
+     padding-left: 500px;
+  }
+
+  
+  #list1 li{
+    padding:10px 10px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(29, 36, 2);
   }
