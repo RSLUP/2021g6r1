@@ -115,7 +115,7 @@
   }
 }
 #back{
-  padding-left: 300px;
+  padding-left: 150px;
 }
 #back button{
   background-color: #0a0a0a; 
@@ -130,11 +130,9 @@
 /*Vertical Navigationbar*/
 
 #VnavBar {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 5px;
   height: 100%;
-  padding-top: 80px;
-  padding-top: 50px;
   padding-left: 5px;
   float: left;
   background-color: #f1f1f1;
