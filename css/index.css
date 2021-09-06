@@ -238,14 +238,23 @@ body {
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-image: linear-gradient(to right, #0e0240, #a50b50);
   color: black;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #08080856;
   color: white;
   transform: rotateY(180deg);
+}
+
+.flip-card-back h1{
+  padding-top: 15%;
+  font-size: 40px;
+}
+
+.flip-card-back p{
+  font-size: 20px;
 }
 
 #class{
