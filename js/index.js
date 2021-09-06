@@ -1,5 +1,8 @@
-
-
+// submit bttn
+function submit(){
+	alert("Details submited!!");
+}
+//change when Scroll
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -12,7 +15,7 @@ function scrollFunction() {
   }
 }
 
-
+//responsive navBar
 function navBar() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -28,4 +31,5 @@ function navBar() {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
 
