@@ -169,23 +169,70 @@
             font-size:18px;
             background-color:rgb(245, 245, 245);
         }
-
+        /*
         .float{
             position:fixed;
             width:60px;
             height:60px;
             bottom:40px;
             right:40px;
-            background-color:#0C9;
-            color:#FFF;
-            border-radius:50px;
-            text-align:center;
+            background-color: #1fe4f5;
+            color:rgb(10, 44, 31);
+            border-radius:0px;
+            text-align: relative;
             box-shadow: 2px 2px 3px #999;
+            vertical-align: middle;
         }
 
         .my-float{
             margin-top:22px;
         }
+        */
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+        span{
+        position: absolute;
+        display: inline-flex;
+        width: 180px;
+        height: 55px;
+        margin: 0 15px;
+        perspective: 1000px;
+        }
+        span a{
+        font-size: 19px;
+        letter-spacing: 1px;
+        transform-style: preserve-3d;
+        transform: translateZ(-25px);
+        transition: transform .25s;
+        font-family: 'Montserrat', sans-serif;
+        
+        }
+        span a:before,
+        span a:after{
+        position: absolute;
+        content: "MAIN MANU";
+        height: 55px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid black;
+        box-sizing: border-box;
+        border-radius: 5px;
+        }
+        span a:before{
+        color: #fff;
+        background: #000;
+        transform: rotateY(0deg) translateZ(25px);
+        }
+        span a:after{
+        color: #000;
+        transform: rotateX(90deg) translateZ(25px);
+        }
+        span a:hover{
+        transform: translateZ(-25px) rotateX(-90deg);
+        }
+
     </style>
 </head>
 <body>
@@ -278,8 +325,11 @@
           </div>
         </div>
     </div>
-    <div class="float_menu_btn"><a href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\index.html" class="float">
-        <i class="fa fa-plus my-float"></i></a>
+    <!--<div class="float_menu_btn">
+        <a href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\index.html" class="float">
+        <i class="fa fa-plus my-float">Home</i></a>
     </div>
+    -->
+    <div class="float_menu_btn"><span><a href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\index.html"></a></span></div>
 </body>
 </html>
