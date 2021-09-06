@@ -14,76 +14,125 @@
     <title>Letter Example 04</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+      
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-<body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html#courseHead">About us</a>
+    <a href="../../index.html#footer">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+       
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">Confused Letter</p>
-    <p id="Topic">The following letter from Mike about his recent European vacation was sent to Linda. Unfortunately, her dog chewed it up and now Mike needs to put it back in the right order. Can you help him? Put the <b>correct number</b> into each of the boxes in the four missing parts. <i>There are two extra paragraphs you don't need.</i></P><BR>
+    <p id="Topic1">The following letter from Mike about his recent European vacation was sent to Linda. Unfortunately, her dog chewed it up and now Mike needs to put it back in the right order. Can you help him? Put the <b>correct number</b> into each of the boxes in the four missing parts. <i>There are two extra paragraphs you don't need.</i></P><BR>
 
 <HR style="width:80%;color:#800000;">
 
-<div>
-<p>1. Clive and his wife left us once we got to Germany by train. They went up into Denmark but we continued to Munich. Wow - what a great city. I bought you a surprise gift there. I hope you like it.</p>
 
-<p>2. As I told you yesterday, I am in Rome today. Tomorrow we are getting the train down into the south of the country and then the ship across to Greece.</p>
+<p id="Topic2">1. Clive and his wife left us once we got to Germany by train. They went up into Denmark but we continued to Munich. Wow - what a great city. I bought you a surprise gift there. I hope you like it.</p>
 
-<p>3. I paid nearly $200 for it but it looks magnificent and is made of real leather.</p>
+<p id="Topic2">2. As I told you yesterday, I am in Rome today. Tomorrow we are getting the train down into the south of the country and then the ship across to Greece.</p>
 
-<p>4. OK, that's enough from me for now. I want to post this letter now so you get it by the weekend.</p>
+<p id="Topic2">3. I paid nearly $200 for it but it looks magnificent and is made of real leather.</p>
 
-<p>5. At least when we got to Paris, the sun was shining! We only stayed for one afternoon in the French capital because my friends really wanted to visit Euro Disney which is to the east of Paris.</p>
+<p id="Topic2">4. OK, that's enough from me for now. I want to post this letter now so you get it by the weekend.</p>
 
-<p>6. I sent her a postcard last night. It had the Eiffel Tower on it, which she has always wanted to visit. Now she can look at it on a postcard every day!</p>
-</div><br><br>
+<p id="Topic2">5. At least when we got to Paris, the sun was shining! We only stayed for one afternoon in the French capital because my friends really wanted to visit Euro Disney which is to the east of Paris.</p>
+
+<p id="Topic2">6. I sent her a postcard last night. It had the Eiffel Tower on it, which she has always wanted to visit. Now she can look at it on a postcard every day!</p>
+<br><br>
 
 <form name="form1" class="standard">
 
-<P>Dear Linda, </P>
+<P id="Topic2">Dear Linda, </P>
 
-<P>How are things with you. It was great talking to you yesterday by phone.</P>
+<P id="Topic2">How are things with you. It was great talking to you yesterday by phone.</P>
 
 <input type="text" name="box0" size="9">
 
-<P>I can't wait to arrive in Athens to see all that history. Let me tell you something about where we have visited so far. I know you want to come here on vacation too one day!</P>
+<P id="Topic2">I can't wait to arrive in Athens to see all that history. Let me tell you something about where we have visited so far. I know you want to come here on vacation too one day!</P>
 
-<P>We started in England and we spent two days in London and another day in Canterbury. We saw a lot of great history and the only bad thing was the weather - it rained for the whole time we were there. Can you believe it?</P>
+<P id="Topic2">We started in England and we spent two days in London and another day in Canterbury. We saw a lot of great history and the only bad thing was the weather - it rained for the whole time we were there. Can you believe it?</P>
 
 <input type="text" name="box1" size="9">
 
-<P>Well, I have to say I prefer the American Disneyland. But we met some nice people from Canada and spent two great days with them. One of them, Clive, is going to your university next year. How's that for a coincidence!</P>
+<P id="Topic2">Well, I have to say I prefer the American Disneyland. But we met some nice people from Canada and spent two great days with them. One of them, Clive, is going to your university next year. How's that for a coincidence!</P>
 
 <input type="text" name="box2" size="9">
 
-<P>After that, we went south into Switzerland. It was very expensive and we couldn't stay as long as we wanted to, so that's why we're in Italy now!</P>
+<P id="Topic2">After that, we went south into Switzerland. It was very expensive and we couldn't stay as long as we wanted to, so that's why we're in Italy now!</P>
 
 <input type="text" name="box3" size="9">
 
-<P>See you soon, </P>
+<P id="Topic2">See you soon, </P>
 
-<P>Mike</P>
+<P id="Topic2">Mike</P>
 
 <button type="button" class="collapsible">Answers</button>
 <div class="content">
-  <p>Question 1 -Actual Answer is: 2.<br>
+  <p id="Topic2">Question 1 -Actual Answer is: 2.<br><br>
 
-    Question 2 -Actual Answer is: 5.<br>
+    Question 2 -Actual Answer is: 5.<br><br>
     
-    Question 3 -Actual Answer is: 1.<br>
+    Question 3 -Actual Answer is: 1.<br><br>
     
-    Question 4 -Actual Answer is: 4.</p>
+    Question 4 -Actual Answer is: 4.</p><br>
 </div>
-    </form>
+    </form><br><br><br><br>
     
      </div>
 <script>

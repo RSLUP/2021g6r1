@@ -7,43 +7,45 @@
     <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
     <script src="../../js/writingPage.js"></script>
     <link rel="stylesheet" href="../../css/navBar.css">
-    <link rel="stylesheet" href="../../css/graph.css">
+    <link rel="stylesheet" href="../../css/adjectives.css">
     <script src="../../js/subCategory.js"></script>
     
     <title>Graph Describing</title>
-</head>
-<body>
-        <!--Horizontal Navigation Bar-->
-     <div class="topnav" id="myTopnav" onload="navBar()">
-        <a href="#home" class="active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Coursers
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading</a>
-            <a href="html/Writing/writingPage.html">Writing</a>
-            <a href="#">Listening</a>
-          </div>
+    <script src="../../js/index.js"></script>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+  
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="../../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/reading.html">Reading</a>
+          <a href="writingPage.html">Writing</a>
+          <a href="../Listening/listeningPage.html">Listening</a>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Exercises
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading Test</a>
-            <a href="#">Writing Test</a>
-            <a href="#">Listening Test</a>
-          </div>
-        </div>
-        <a href="#contact">About</a>
-        <a href="#about">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/quizReadingTest.html">Reading Test</a>
+          <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+          <a href="../Listening/quizListeningTest.html">Listening Test</a>
+        </div>
+      </div>
+      <a href="../../index.html#courseHead">About us</a>
+      <a href="../../index.html#footer">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <!--Vertical Navigation Bar-->
     <div id="VnavBar">
         <ul>
@@ -145,20 +147,28 @@
     </div>
 
     
-  <div id="WRT">
+  <div id="spc">
 
-<p id="Head">Graphs</p><br>
-    <p id="descrp">Graph is a kind of indicator in data analysis and they can be used in different purposes in every sectors.</p><br>
+<p id="HeadSP">Graphs</p><br>
+    <p id="Topic">Graph is a kind of indicator in data analysis and they can be used in different purposes in every sectors.</p><br>
+    <div id="list1">
     <ul>
         <li>Statistics related fields like reserches</li>
         <li>Bussiness Indistry to analysis the product progress and the econmical growth</li>
-        <li>Some conceptuals tasks in every industry(Medical, Education, Weather, Agriculture, etc.)</li></ul><br><br>
-    <h2><u>Bar Charts</u></h2>
-    <center><img src="../../media/img/bar.PNG" align="centre"width=1000></center><br><br>
-    <table border="1" cellpadding="0" cellspacing="0"><tr><td><p>The bar chart represents/depicts three different sources of foreign exchange earnings from 2007-2011 respectively. At a glance, the chart shows that two sources out of three have gradually increased and out of them workers’ remittance shows a rapid increase over textile and garments which shows a slight increase over the period. The chart also shows that the foreign exchange owning from tea remained almost constant.
+        <li>Some conceptuals tasks in every industry(Medical, Education, Weather, Agriculture, etc.)</li></ul></div><br><br>
+        <p id="TopicPP">Bar Charts</p>
+        <div id="img">
+  <img src="../../media/img/bar.PNG" ></div><br><br>
+
+  <div id="table1">
+    <table><tr><td><p id="Topic2">The bar chart represents/depicts three different sources of foreign exchange earnings from 
+      2007-2011 respectively.<br> At a glance, the chart shows that two sources out of three have gradually increased and
+       out of them workers’ remittance shows a rapid increase over textile and garments which shows a slight increase 
+       over the period.<br> The chart also shows that the foreign exchange owning from tea remained almost constant.
 </p>
-    <p>In 2007 tea has drawn a foreign exchange of 1000$ million. The following year it has only increased by 250 million and from then onwards it has remained constant until 2011. Textile and Garments have earned 3800$ million in 2007. In the following year, it has increased only by a few $ million and dropped by about 300 million in 2009. However, it has increased again in 2011. Workers remittance on the other hand has earned 2750$ million in 2007 and kept growing by 200$ million each year until 2009 and the earnings have rapidly increased then onwards like 4000$ million in 2010 and 5000$ million in 2011.</p>
-    <p>In conclusion, we can see that the industry in Sri Lanka has not developed considerably and it doesn’t show a greater growth income over the years. While textile and garments show a slight increase, worker’s remittance has become the main source of foreign exchange earning in Sri Lanka by 2011.
+    <p id="Topic2">In 2007 tea has drawn a foreign exchange of 1000$ million. <br>The following year it has only increased by 250 million and from then onwards it has remained constant until 2011.<br> Textile and Garments have earned 3800$ million in 2007. In the following year, it has increased only by a few $ million and dropped by about 300 million in 2009.
+      <br> However, it has increased again in 2011. Workers remittance on the other hand has earned 2750$ million in 2007 and kept growing by 200$ million each year until 2009 and the earnings have rapidly increased then onwards like 4000$ million in 2010 and 5000$ million in 2011.</p>
+    <p id="Topic2">In conclusion, we can see that the industry in Sri Lanka has not developed considerably and it doesn’t show a greater growth income over the years. While textile and garments show a slight increase, worker’s remittance has become the main source of foreign exchange earning in Sri Lanka by 2011.
 </p></td></tr></table><br><br>
     </div>
     
@@ -166,14 +176,5 @@
     
     
     
-    
-     <footer id="footer">
-    <p id="footer text">Learning English is optimized for learning and training. Eaxamples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
-        
-        Copyright 2021 by Refsnes Data. All Rights Reserved.
-        LearnEnglish is powered by RslUP</p>
-        <div class="icon">
-        <i id="icon" class="fab fa-linkedin"></i>
-        <i id="icon" class="fab fa-facebook-square"></i></div>
-    </footer>
+   
     </body></html>

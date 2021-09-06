@@ -14,68 +14,117 @@
     <title>Comic 2</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+       
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-<body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html#courseHead">About us</a>
+    <a href="../../index.html#footer">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+     
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">Lessons in love.</p>
-    <p id="Topic">For each line of dialogue, choose the correct picture (1-7) and write only the number in the box. There are two lines you do not need. For these, simply write "NO" in the box.</p>
+    <p id="Topic1">For each line of dialogue, choose the correct picture (1-7) and write only the number in the box. There are two lines you do not need. For these, simply write "NO" in the box.</p>
 
 <HR style="width:80%;color:#800000;">
 
-<div class="image-wrapper"><img src="../../media/img/comic2.gif" width="500" height="738" border="0"></div>
+<div id="image"><img src="../../media/img/comic2.gif" ></div>
 <form name="form1" class="standard"><div id="list">
-<p>Listen, does he use your first name when you speak? <input type="text" name="box0" size="4"> </p>
+<p id="Topic2">Listen, does he use your first name when you speak? <input type="text" name="box0" size="4"> </p>
 
-<p>You two seem to be getting serious. <input type="text" name="box1" size="4"> </p>
+<p id="Topic2">You two seem to be getting serious. <input type="text" name="box1" size="4"> </p>
 
-<p>I haven't met her yet. <input type="text" name="box2" size="4"> </p>
+<p id="Topic2">I haven't met her yet. <input type="text" name="box2" size="4"> </p>
 
-<p>I'll be thinking of you babe! <input type="text" name="box3" size="4"> </p>
+<p id="Topic2">I'll be thinking of you babe! <input type="text" name="box3" size="4"> </p>
 
-<p>I would start buying the bridal magazines. <input type="text" name="box4" size="4"> </p>
+<p id="Topic2">I would start buying the bridal magazines. <input type="text" name="box4" size="4"> </p>
 
-<p>I think his hair is too long. <input type="text" name="box5" size="4"> </p>
+<p id="Topic2">I think his hair is too long. <input type="text" name="box5" size="4"> </p>
 
-<p>No, I wouldn't say that. <input type="text" name="box6" size="4"> </p>
+<p id="Topic2">No, I wouldn't say that. <input type="text" name="box6" size="4"> </p>
 
-<p>OK, see you tonight. <input type="text" name="box7" size="4"> </p>
+<p id="Topic2">OK, see you tonight. <input type="text" name="box7" size="4"> </p>
 
-<p>Yeah, he started to about a week ago. <input type="text" name="box8" size="4"> </p></div>
+<p id="Topic2">Yeah, he started to about a week ago. <input type="text" name="box8" size="4"> </p></div>
     
      <button type="button" class="collapsible">Answers</button>
 <div class="content">
-  <p>Question 1 -Actual Answer is: 5.<br>
+  <p id="Topic2">Question 1 -Actual Answer is: 5.<br><br>
 
-    Question 2 -Actual Answer is: 3.<br>
+    Question 2 -Actual Answer is: 3.<br><br>
     
-    Question 3 -Actual Answer is: no.<br>
+    Question 3 -Actual Answer is: no.<br><br>
     
-    Question 4 -Actual Answer is: 1.<br>
+    Question 4 -Actual Answer is: 1.<br><br>
     
-    Question 5 -Actual Answer is: 7.<br>
+    Question 5 -Actual Answer is: 7.<br><br>
     
-    Question 6 -Actual Answer is: no.<br>
+    Question 6 -Actual Answer is: no.<br><br>
     
-    Question 7 -Actual Answer is: 4.<br>
+    Question 7 -Actual Answer is: 4.<br><br>
     
-    Question 8 -Actual Answer is: 2.<br>
+    Question 8 -Actual Answer is: 2.<br><br>
     
-    Question 9 -Actual Answer is: 6.<br>
+    Question 9 -Actual Answer is: 6.<br><br>
     
     </p>
 </div>
-    </form>
+    </form><br><br><br><br>
    
     </div>
 <script>

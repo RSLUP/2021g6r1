@@ -7,43 +7,45 @@
     <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
     <script src="../../js/writingPage.js"></script>
     <link rel="stylesheet" href="../../css/navBar.css">
-    <link rel="stylesheet" href="../../css/graph.css">
+    <link rel="stylesheet" href="../../css/adjectives.css">
     <script src="../../js/subCategory.js"></script>
     
     <title>Graph Describing</title>
-</head>
-<body>
-       <!--Horizontal Navigation Bar-->
-     <div class="topnav" id="myTopnav" onload="navBar()">
-        <a href="#home" class="active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Coursers
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading</a>
-            <a href="html/Writing/writingPage.html">Writing</a>
-            <a href="#">Listening</a>
-          </div>
+    <script src="../../js/index.js"></script>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+  
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="../../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/reading.html">Reading</a>
+          <a href="writingPage.html">Writing</a>
+          <a href="../Listening/listeningPage.html">Listening</a>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Exercises
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading Test</a>
-            <a href="#">Writing Test</a>
-            <a href="#">Listening Test</a>
-          </div>
-        </div>
-        <a href="#contact">About</a>
-        <a href="#about">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/quizReadingTest.html">Reading Test</a>
+          <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+          <a href="../Listening/quizListeningTest.html">Listening Test</a>
+        </div>
+      </div>
+      <a href="../../index.html#courseHead">About us</a>
+      <a href="../../index.html#footer">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <!--Vertical Navigation Bar-->
     <div id="VnavBar">
         <ul>
@@ -145,21 +147,34 @@
     </div>
 
     
-  <div id="WRT">
-<p id="Head">Graphs</p><br>
-    <p id="descrp">Graph is a kind of indicator in data analysis and they can be used in different purposes in every sectors.</p><br>
-    <ul>
+  <div id="spc">
+<p id="HeadSP">Graphs</p><br>
+<p id="Topic">Graph is a kind of indicator in data analysis and they can be used in different purposes in every sectors.</p><br>
+<div id="list1">   
+<ul>
         <li>Statistics related fields like reserches</li>
         <li>Bussiness Indistry to analysis the product progress and the econmical growth</li>
-        <li>Some conceptuals tasks in every industry(Medical, Education, Weather, Agriculture, etc.)</li></ul><br><br>
+        <li>Some conceptuals tasks in every industry(Medical, Education, Weather, Agriculture, etc.)</li></ul></div><br><br>
         
-        <h2><u>Pie Chart</u></h2>
-    <center><img src="../../media/img/pie.PNG" align="centre"width=1000><center><br><br>
-    <table border="1" cellpadding="5" cellspacing="0"><tr><td><p>
-The pie chart depicts/represents the Foreign direct investment in Sri Lanka in 2010 in services, manufacturing, agriculture and infrastructure sectors according to the Central Bank report.</p>
-<p>Where the investment in the year 2020 is concerned 59% of the total investment has been made on infrastructure development while investment in manufacturing has taken 31%. Again 9% of the total investment has been allocated on the expenses for services and only miniature 1% of the total investment has been made in the agriculture sector. When the different segment of the pie chart is compared against the amount that has been allocated for different sectors it is clear that almost 2/3 of the investment has been spent on infrastructure development in various development projects and only about 1/3 of the total investment has been made on the infrastructure sector.</p>
-<p>This chart also makes it clear that Sri Lanka is still at the primary level of development because the expenditure on infrastructure development is twice as big as the expenditure on manufacturing.
-By and large it shows rather slow development on agriculture and much attention has been given to the infrastructure sector. </p></td></tr></table><br><br>
+        <p id="TopicPP">Pie Chart</p>
+        <div id="img">
+    <img src="../../media/img/pie.PNG" ></div><br><br>
+    <div id="table1">
+    <table ><tr><td><p id="Topic2">
+The pie chart depicts/represents the Foreign direct investment in Sri Lanka in 2010 in services, 
+manufacturing, agriculture and infrastructure sectors according to the Central Bank report.</p>
+<p id="Topic2">Where the investment in the year 2020 is concerned 59% of the total
+   investment has been made on infrastructure development while investment in manufacturing has taken 31%.<br>
+    Again 9% of the total investment has been allocated on the expenses for services and only miniature 1% 
+    of the total investment has been made in the agriculture sector. <br>
+    When the different segment of the pie chart is compared against the amount that has been allocated 
+    for different sectors it is clear that almost 2/3 of the investment has been spent on infrastructure development 
+    in various development projects and only about 1/3 of the total investment has been made on the infrastructure
+     sector.</p>
+<p id="Topic2" >This chart also makes it clear that Sri Lanka is still at the primary level of development because the
+   expenditure on infrastructure development is twice as big as the expenditure on manufacturing.<br>
+By and large it shows rather slow development on agriculture and much attention has been given to the
+ infrastructure sector. </p></td></tr></table><br><br>
 
 </div>
     
@@ -167,14 +182,5 @@ By and large it shows rather slow development on agriculture and much attention 
     
     
     
-    
-     <footer id="footer">
-    <p id="footer text">Learning English is optimized for learning and training. Eaxamples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
-        
-        Copyright 2021 by Refsnes Data. All Rights Reserved.
-        LearnEnglish is powered by RslUP</p>
-        <div class="icon">
-        <i id="icon" class="fab fa-linkedin"></i>
-        <i id="icon" class="fab fa-facebook-square"></i></div>
-    </footer>
+
     </body></html>

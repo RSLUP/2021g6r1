@@ -14,82 +14,152 @@
     <title>Dialogue 01</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+       
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-    <body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html#courseHead">About us</a>
+    <a href="../../index.html#footer">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+       
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">The Survey</p>
-    <p id="Topic">Read this conversation between Linda and Hugo, then answer the True/False questions.</p>
+    <p id="Topic1">Read this conversation between Linda and Hugo, then answer the True/False questions.</p>
 
-<div class="reading">
-<p><b>Linda:</b> Hello, do you have a little spare time?<br><b>Hugo:</b> No, sorry.<br><b>Linda:</b> It won't take long, just a couple of minutes.<br><b>Hugo:</b> Oh, OK, what do you want to know?<br><b>Linda:</b> We want to know what sports you do, how much exercise you do every day or every week.<br><b>Hugo:</b> Well, I like playing soccer. That's my favorite sport. I play a match every Sunday and every Wednesday.<br><b>Linda:</b> Who do you play with?<br><b>Hugo:</b> Just some friends from college.<br><b>Linda:</b> What other exercise do you do? Do you go swimming?<br><b>Hugo:</b> No, I don't like swimming.<br><b>Linda:</b> Can you swim?<br><b>Hugo:</b> Yes, I can, but I don't enjoy swimming. I prefer running. I go running once or twice a week.<br><b>Linda:</b> Where do you go?<br><b>Hugo:</b> There's a big park near my house and I go running there.<br><b>Linda:</b> Do you also go in the winter when it's cold and snowy?<br><b>Hugo:</b> Yes, it's good for keeping me warm!<br><b>Linda:</b> I couldn't run in the snow! Do you play tennis or volleyball or another sport like that?<br><b>Hugo:</b> No, but I go to karate classes on Thursday evenings.<br><b>Linda:</b> Isn't that dangerous?<br><b>Hugo:</b> I started karate about four years ago so I'm quite good at it now.<br><b>Linda:</b> OK, thanks for your time.<br><b>Hugo:</b> No problem, bye.</p>
-</div>
+
+<p id="Topic2"><b>Linda:</b> Hello, do you have a little spare time?<br><br>
+  <b>Hugo:</b> No, sorry.<br><br>
+  <b>Linda:</b> It won't take long, just a couple of minutes.<br><br>
+  <b>Hugo:</b> Oh, OK, what do you want to know?<br><br>
+  <b>Linda:</b> We want to know what sports you do, how much exercise you do every day or every week.<br><br>
+  <b>Hugo:</b> Well, I like playing soccer. That's my favorite sport. I play a match every Sunday and every Wednesday.<br><br>
+  <b>Linda:</b> Who do you play with?<br><br>
+  <b>Hugo:</b> Just some friends from college.<br><br>
+  <b>Linda:</b> What other exercise do you do? Do you go swimming?<br><br>
+  <b>Hugo:</b> No, I don't like swimming.<br><br>
+  <b>Linda:</b> Can you swim?<br><br>
+  <b>Hugo:</b> Yes, I can, but I don't enjoy swimming. I prefer running. I go running once or twice a week.<br><br>
+  <b>Linda:</b> Where do you go?<br><br>
+  <b>Hugo:</b> There's a big park near my house and I go running there.<br><br>
+  <b>Linda:</b> Do you also go in the winter when it's cold and snowy?<br><br>
+  <b>Hugo:</b> Yes, it's good for keeping me warm!<br><br>
+  <b>Linda:</b> I couldn't run in the snow! Do you play tennis or volleyball or another sport like that?<br><br>
+  <b>Hugo:</b> No, but I go to karate classes on Thursday evenings.<br><br>
+  <b>Linda:</b> Isn't that dangerous?<br><br>
+  <b>Hugo:</b> I started karate about four years ago so I'm quite good at it now.<br><br>
+  <b>Linda:</b> OK, thanks for your time.<br><br>
+  <b>Hugo:</b> No problem, bye.</p><br><br>
+
 
 <HR style="width:80%;color:#800000;">
 
 <form name="form1" class="standard">
-    <div id="list">
-<p>1. Hugo is in a hurry.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R1" ONCLICK="A0='true'"> True</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R1" ONCLICK="A0='false'"> False</p>
+  
+<p id="Topic2">1. Hugo is in a hurry.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R1" ONCLICK="A0='true'"> True</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R1" ONCLICK="A0='false'"> False</p>
 
-<p>2. Linda asks questions about diet and exercise.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R2" ONCLICK="A1='true'"> True</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R2" ONCLICK="A1='false'"> False</p>
+<p id="Topic2">2. Linda asks questions about diet and exercise.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R2" ONCLICK="A1='true'"> True</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R2" ONCLICK="A1='false'"> False</p>
 
-<p>3. Hugo plays his favorite sport three times a week.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R3" ONCLICK="A2='true'"> True</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R3" ONCLICK="A2='false'"> False</p>
+<p id="Topic2">3. Hugo plays his favorite sport three times a week.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R3" ONCLICK="A2='true'"> True</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R3" ONCLICK="A2='false'"> False</p>
 
-<p>4. Hugo plays soccer with people from his job.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R4" ONCLICK="A3='true'"> True</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R4" ONCLICK="A3='false'"> False</p>
+<p id="Topic2">4. Hugo plays soccer with people from his job.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R4" ONCLICK="A3='true'"> True</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R4" ONCLICK="A3='false'"> False</p>
 
-<p>5. Hugo can't swim.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R5" ONCLICK="A4='true'"> True</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R5" ONCLICK="A4='false'"> False</p>
+<p id="Topic2">5. Hugo can't swim.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R5" ONCLICK="A4='true'"> True</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R5" ONCLICK="A4='false'"> False</p>
 
-<p>6. Hugo prefers running to swimming.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R6" ONCLICK="A5='true'"> True</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R6" ONCLICK="A5='false'"> False</p>
+<p id="Topic2">6. Hugo prefers running to swimming.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R6" ONCLICK="A5='true'"> True</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R6" ONCLICK="A5='false'"> False</p>
 
-<p>7. Hugo goes running near his house.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R7" ONCLICK="A6='true'"> True</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R7" ONCLICK="A6='false'"> False</p>
+<p id="Topic2">7. Hugo goes running near his house.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R7" ONCLICK="A6='true'"> True</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R7" ONCLICK="A6='false'"> False</p>
 
-<p>8. Hugo isn't very experienced in karate.</p>
-<p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R8" ONCLICK="A7='true'"> True</p>
-        <p>&nbsp;&nbsp;&nbsp;<input type="radio" name="R8" ONCLICK="A7='false'"> False</p></div>
+<p id="Topic2">8. Hugo isn't very experienced in karate.</p>
+<p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R8" ONCLICK="A7='true'"> True</p>
+        <p id="Topic2">&nbsp;&nbsp;&nbsp;<input type="radio" name="R8" ONCLICK="A7='false'"> False</p>
 
 <button type="button" class="collapsible">Answers</button>
 <div class="content">
-  <p>Question 1 -Actual Answer is: true.<br>
+  <p id="Topic2"> Question 1 - Actual Answer is: true.<br><br>
 
-    Question 2 -Actual Answer is: false.<br>
+    Question 2 -Actual Answer is: false.<br><br>
     
-    Question 3 -Actual Answer is: false.<br>
+    Question 3 -Actual Answer is: false.<br><br>
     
-    Question 4 -Actual Answer is: false.<br>
+    Question 4 -Actual Answer is: false.<br><br>
     
-    Question 5 -Actual Answer is: false.<br>
+    Question 5 -Actual Answer is: false.<br><br>
     
-    Question 6 -Actual Answer is: true.<br>
+    Question 6 -Actual Answer is: true.<br><br>
     
-    Question 7 -Actual Answer is: true.<br>
+    Question 7 -Actual Answer is: true.<br><br>
     
-    Question 8 -Actual Answer is: false.</p>
+    Question 8 -Actual Answer is: false.</p><br>
 </div>
-    </form>
+    </form><br><br><br><br>
     </div>
 <script>
 var coll = document.getElementsByClassName("collapsible");

@@ -13,40 +13,41 @@
     <script src="../../js/subCategory.js"></script>
 
     <title>The Present Continuous Tense</title>
+    <script src="../../js/index.js"></script>
 </head>
 <body>
-     <!--Horizontal Navigation Bar-->
-     <div class="topnav" id="myTopnav" onload="navBar()">
-        <a href="#home" class="active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Coursers
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading</a>
-            <a href="html/Writing/writingPage.html">Writing</a>
-            <a href="#">Listening</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Exercises
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading Test</a>
-            <a href="#">Writing Test</a>
-            <a href="#">Listening Test</a>
-          </div>
-        </div>
-        <a href="#contact">About</a>
-        <a href="#about">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
+  <!--Navigation Bar-->
 
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html#courseHead">About us</a>
+    <a href="../../index.html#footer">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
     <div id="VnavBar">
         <ul>
             <p id="head">Grammer</p>
@@ -236,16 +237,6 @@
 
 
 
-    <footer id="footer">
-        <p id="footerText">LearnEnglish is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
-    
-          Copyright 2021 by Refsnes Data. All Rights Reserved.
-         LearnEnglish is Powered by RslUP</p>
-        <div class="icon">
-          <i id="icon" class="fab fa-linkedin"></i>
-          <i id="icon" class="fab fa-facebook-square"></i>
-        </div>
-      </footer>
 
 
     </body>

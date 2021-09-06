@@ -7,43 +7,45 @@
     <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
     <script src="../../js/writingPage.js"></script>
     <link rel="stylesheet" href="../../css/navBar.css">
-    <link rel="stylesheet" href="../../css/graph.css">
+    <link rel="stylesheet" href="../../css/adjectives.css">
     <script src="../../js/subCategory.js"></script>
     
     <title>Graph Describing</title>
-</head>
-<body>
-        <!--Horizontal Navigation Bar-->
-     <div class="topnav" id="myTopnav" onload="navBar()">
-        <a href="#home" class="active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Coursers
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading</a>
-            <a href="html/Writing/writingPage.html">Writing</a>
-            <a href="#">Listening</a>
-          </div>
+    <script src="../../js/index.js"></script>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+  
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="../../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/reading.html">Reading</a>
+          <a href="writingPage.html">Writing</a>
+          <a href="../Listening/listeningPage.html">Listening</a>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Exercises
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading Test</a>
-            <a href="#">Writing Test</a>
-            <a href="#">Listening Test</a>
-          </div>
-        </div>
-        <a href="#contact">About</a>
-        <a href="#about">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/quizReadingTest.html">Reading Test</a>
+          <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+          <a href="../Listening/quizListeningTest.html">Listening Test</a>
+        </div>
+      </div>
+      <a href="../../index.html#courseHead">About us</a>
+      <a href="../../index.html#footer">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <!--Vertical Navigation Bar-->
     <div id="VnavBar">
         <ul>
@@ -145,35 +147,36 @@
     </div>
 
     
-  <div id="WRT">
-<p id="Head">Graphs</p><br>
-    <p id="descrp">Graph is a kind of indicator in data analysis and they can be used in different purposes in every sectors.</p><br>
+  <div id="spc">
+<p id="HeadSP">Graphs</p><br>
+    <p id="Topic">Graph is a kind of indicator in data analysis and they can be used in different purposes in every sectors.</p><br>
+    <div id="list1"> 
     <ul>
         <li>Statistics related fields like reserches</li>
         <li>Bussiness Indistry to analysis the product progress and the econmical growth</li>
-        <li>Some conceptuals tasks in every industry(Medical, Education, Weather, Agriculture, etc.)</li></ul><br><br>
+        <li>Some conceptuals tasks in every industry(Medical, Education, Weather, Agriculture, etc.)</li></ul></div><br><br>
         
-        <h2><u>Line Diagrams</u></h2>
-    <center><img src="../../media/img/line1.PNG" align="centre"width=1000><center><br><br>
-    <table border="1" cellpadding="5" cellspacing="0"><tr><td><p>
-The line graph shows the percentage of tourists to England who visited certain Brighton attractions between 1980 and 2010. We can see that in 1980 and in 2010 the favourite attractions were the pavilion and the festival. In 1980 the least popular attraction was the pier but in 2010 this changed and the art gallery was the least popular.</p>
-<p>During the 1980s and 1990s there was a sharp increase in visitors to the pavilion from 28% to 48% and then the percentage gradually went down to 31% in 2010. The trend for the art gallery was similar to the pavilion. Visitors increased rapidly from 22% to 37% from 1980 to 1985 then gradually decreased to less than 10% over the next twenty-five years. The number of tourists who visited the Brighton Festival fluctuated slightly but in general remained steady at about 25%. Visitors to the pier also fluctuated from 1980 to 2000 then rose significantly from 12% to 22% between 2000 and 2010.</p>
-</td></tr></table><br><br>
+        <p id="TopicPP">Line Diagrams</p>
+        <div id="img">   
+   <img src="../../media/img/line1.PNG"></div><br><br>
+   <div id="table1">
+    <table><tr><td><p id="Topic2">
+The line graph shows the percentage of tourists to England who visited certain Brighton attractions between 
+1980 and 2010. We can see that in 1980 and in 2010 the favourite attractions were the pavilion and the festival.
+<br> In 1980 the least popular attraction was the pier but in 2010 this changed and the art gallery was the 
+least popular.</p>
+<p id="Topic2">During the 1980s and 1990s there was a sharp increase in visitors to the pavilion from 28% to
+   48% and then the percentage gradually went down to 31% in 2010.<br> The trend for the art gallery was similar
+    to the pavilion. Visitors increased rapidly from 22% to 37% from 1980 to 1985 then gradually decreased to less
+     than 10% over the next twenty-five years.<br>
+      The number of tourists who visited the Brighton Festival fluctuated slightly but in general remained steady 
+      at about 25%. Visitors to the pier also fluctuated from 1980 to 2000 then rose significantly from 12% to
+       22% between 2000 and 2010.</p>
+</td></tr></table></div><br><br>
 
 </div>
     
     
     
-    
-    
-    
-     <footer id="footer">
-    <p id="footer text">Learning English is optimized for learning and training. Eaxamples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
-        
-        Copyright 2021 by Refsnes Data. All Rights Reserved.
-        LearnEnglish is powered by RslUP</p>
-        <div class="icon">
-        <i id="icon" class="fab fa-linkedin"></i>
-        <i id="icon" class="fab fa-facebook-square"></i></div>
-    </footer>
+
     </body></html>

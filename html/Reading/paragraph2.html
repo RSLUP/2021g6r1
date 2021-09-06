@@ -14,88 +14,137 @@
     <title>Paragraph Reading 02</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+       
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-<body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html#courseHead">About us</a>
+    <a href="../../index.html#footer">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+      
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">University Offers Computer Game Course</p>
-   <p id="Topic">Read the text and look at the questions that follow it. In this reading comprehension, the questions are true or false.</p>
+   <p id="Topic1">Read the text and look at the questions that follow it. In this reading comprehension, the questions are true or false.</p>
 
    <HR style="width:80%;color:#800000;">
    
-   <div class="long-reading">
-   <p>A Scottish University has announced a world first in the field of elite academic achievement. It is offering a masters degree course in computer games software engineering.</p>
    
-   <p>The University of Abertay in Dundee says it could put the city at the centre of a multi-million pound industry.</p>
+   <p id="Topic2">A Scottish University has announced a world first in the field of elite academic achievement. It is offering a masters degree course in computer games software engineering.</p>
    
-   <p>Over £45bn will be spent on computer software in Europe this year, with the games market making up a substantial share.</p>
+   <p id="Topic2">The University of Abertay in Dundee says it could put the city at the centre of a multi-million pound industry.</p>
    
-   <p>There are only forty places on the course. The course leader, John Sutherland says he hopes that people will see that computer games are about people as well as machines.</p>
+   <p id="Topic2">Over £45bn will be spent on computer software in Europe this year, with the games market making up a substantial share.</p>
    
-   <p>"Students will have to learn about how people see, feel and hear to be successful in this environment" he said</p>
+   <p id="Topic2">There are only forty places on the course. The course leader, John Sutherland says he hopes that people will see that computer games are about people as well as machines.</p>
    
-   <p>"In the next five years the computer games industry will be worth more than the entire cinema industry is today."</p>
+   <p id="Topic2">"Students will have to learn about how people see, feel and hear to be successful in this environment" he said</p>
    
-   <p>The University will be offering a Bachelors course in the same discipline in the very near future and are in the process of building a new computer laboratory.</p>
+   <p id="Topic2">"In the next five years the computer games industry will be worth more than the entire cinema industry is today."</p>
    
-   <p>Computer games technology, particularly virtual applications, have other uses apart from entertainment.</p>
+   <p id="Topic2">The University will be offering a Bachelors course in the same discipline in the very near future and are in the process of building a new computer laboratory.</p>
    
-   <p>Medical simulations for training surgeons and more realistic flight simulators for pilot education are just two uses for the technology.</p>
+   <p id="Topic2">Computer games technology, particularly virtual applications, have other uses apart from entertainment.</p>
    
-   <p class="citation">Credit: http://news.bbc.co.uk/2/hi/science/nature/28081.stm</p>
-   </div>
+   <p id="Topic2">Medical simulations for training surgeons and more realistic flight simulators for pilot education are just two uses for the technology.</p>
+   
+   <p id="Topic2">Credit: http://news.bbc.co.uk/2/hi/science/nature/28081.stm</p>
+   
    
    <form name="form1" class="standard">
-   <p>1. The university wants to teach people how to play games better.<br>
+   <p id="Topic2">1. The university wants to teach people how to play games better.<br><br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R1" ONCLICK="A0='true'"> True<br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R1" ONCLICK="A0='false'"> False</p>
-   <p>2. There's a chance that the area might become very important for the computer game industry if this course goes ahead.<br>
-   &nbsp;&nbsp;&nbsp;<input type="radio" name="R2" ONCLICK="A1='true'"> True<br>
+   <p id="Topic2">2. There's a chance that the area might become very important for the computer game industry if this course goes ahead.<br>
+   &nbsp;&nbsp;&nbsp;<input type="radio" name="R2" ONCLICK="A1='true'"> True<br><br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R2" ONCLICK="A1='false'"> False</p>
-   <p>3. The leader of the course hopes to expand people's understanding of what computer games are about.<br>
+   <p id="Topic2">3. The leader of the course hopes to expand people's understanding of what computer games are about.<br><br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R3" ONCLICK="A2='true'"> True<br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R3" ONCLICK="A2='false'"> False</p>
-   <p>4. There is more money now in computer games than in the entire cinema industry.<br>
+   <p id="Topic2">4. There is more money now in computer games than in the entire cinema industry.<br><br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R4" ONCLICK="A3='true'"> True<br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R4" ONCLICK="A3='false'"> False</p>
-   <p>5. Only older, more advanced students can currently take the course.<br>
+   <p id="Topic2">5. Only older, more advanced students can currently take the course.<br><br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R5" ONCLICK="A4='true'"> True<br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R5" ONCLICK="A4='false'"> False</p>
-   <p>6. The university is undergoing expansion to allow the course to take place.<br>
+   <p id="Topic2">6. The university is undergoing expansion to allow the course to take place.<br><br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R6" ONCLICK="A5='true'"> True<br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R6" ONCLICK="A5='false'"> False</p>
-   <p>7. The course is specially designed for professionals such as doctors and pilots.<br>
+   <p id="Topic2">7. The course is specially designed for professionals such as doctors and pilots.<br><br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R7" ONCLICK="A6='true'"> True<br>
    &nbsp;&nbsp;&nbsp;<input type="radio" name="R7" ONCLICK="A6='false'"> False</p>
    <button type="button" class="collapsible">Answers</button>
    <div class="content">
-     <p>Question 1 -Actual Answer is: False.<br>
+     <p id="Topic2">Question 1 -Actual Answer is: False.<br><br>
 
-        Question 2 -Actual Answer is: True.<br>
+        Question 2 -Actual Answer is: True.<br><br>
         
-        Question 3 -Actual Answer is: True.<br>
+        Question 3 -Actual Answer is: True.<br><br>
         
-        Question 4 -Actual Answer is: False.<br>
+        Question 4 -Actual Answer is: False.<br><br>
         
-        Question 5 -Actual Answer is: True.<br>
+        Question 5 -Actual Answer is: True.<br><br>
         
-        Question 6 -Actual Answer is: True.<br>
+        Question 6 -Actual Answer is: True.<br><br>
         
-        Question 7 -Actual Answer is: False.<br>
+        Question 7 -Actual Answer is: False.<br><br>
         
         </p>
    </div>
-       </form>
+       </form><br><br><br><br>
        </div>
    <script>
    var coll = document.getElementsByClassName("collapsible");

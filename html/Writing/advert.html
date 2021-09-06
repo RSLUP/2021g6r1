@@ -7,43 +7,45 @@
      <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
     <script src="../../js/writingPage.js"></script>
     <link rel="stylesheet" href="../../css/navBar.css">
-    <link rel="stylesheet" href="../../css/formal.css">
+    <link rel="stylesheet" href="../../css/adjectives.css">
     <script src="../../js/subCategory.js"></script>
     <title>Advertisements</title>
     
-</head>
-<body>
-    <!--Horizontal Navigation Bar-->
-     <div class="topnav" id="myTopnav" onload="navBar()">
-        <a href="#home" class="active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Coursers
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading</a>
-            <a href="html/Writing/writingPage.html">Writing</a>
-            <a href="#">Listening</a>
-          </div>
+    <script src="../../js/index.js"></script>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+  
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="../../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/reading.html">Reading</a>
+          <a href="writingPage.html">Writing</a>
+          <a href="../Listening/listeningPage.html">Listening</a>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Exercises
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading Test</a>
-            <a href="#">Writing Test</a>
-            <a href="#">Listening Test</a>
-          </div>
-        </div>
-        <a href="#contact">About</a>
-        <a href="#about">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/quizReadingTest.html">Reading Test</a>
+          <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+          <a href="../Listening/quizListeningTest.html">Listening Test</a>
+        </div>
+      </div>
+      <a href="../../index.html#courseHead">About us</a>
+      <a href="../../index.html#footer">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <!--Vertical Navigation Bar-->
     <div id="VnavBar">
         <ul>
@@ -145,30 +147,19 @@
     </div>
 
     
-  <div id="WRT">
-      <p id="Head">Advertisements</p>
-    <p id="descrp">In most offices, advertisements need to be read and answered, unless you are working in the Advertising Section of an office, in which case you will have to design the advertisements yourself.<br>
+  <div id="spc">
+      <p id="HeadSP">Advertisements</p>
+    <p id="Topic2">In most offices, advertisements need to be read and answered, unless you are working in the Advertising Section of an office, in which case you will have to design the advertisements yourself.<br>
     Most often, you'll be asked to look for an advertisement for a product and provide the information to the officer in charge of purchasing for the organisation.</p>
-    
-        <table cellpadding="40"><tr><td align="center"><img src="../../media/img/adv.png" width="500"height="500"></td>
-        <td align="right"><img src="../../media/img/adv2.jpg"width="300"height="300"></td></tr></table>
+    <br><br><div id="table1">
+        <table ><tr><td><img src="../../media/img/adv.png" width="500"height="500"></td>
+        <td><img src="../../media/img/adv2.jpg"  width="300"height="300"></td></tr></table>
       
       </div>
     
     
+    </div>
     
-    
-    
-    
-     <footer id="footer">
-    <p id="footer text">Learning English is optimized for learning and training. Eaxamples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
-        
-        Copyright 2021 by Refsnes Data. All Rights Reserved.
-        LearnEnglish is powered by RslUP</p>
-        <div class="icon">
-        <i id="icon" class="fab fa-linkedin"></i>
-        <i id="icon" class="fab fa-facebook-square"></i></div>
-    </footer>
     
     
 </body>

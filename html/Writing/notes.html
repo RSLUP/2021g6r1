@@ -7,44 +7,45 @@
     <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
     <script src="../../js/writingPage.js"></script>
     <link rel="stylesheet" href="../../css/navBar.css">
-    <link rel="stylesheet" href="../../css/formal.css">
+    <link rel="stylesheet" href="../../css/adjectives.css">
     <script src="../../js/subCategory.js"></script>
     <title>Notes</title>
     
-</head>
-    
-<body>
-    <!--Horizontal Navigation Bar-->
-    <div class="topnav" id="myTopnav" onload="navBar()">
-        <a href="#home" class="active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Coursers
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading</a>
-            <a href="html/Writing/writingPage.html">Writing</a>
-            <a href="#">Listening</a>
-          </div>
+    <script src="../../js/index.js"></script>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+  
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="../../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/reading.html">Reading</a>
+          <a href="writingPage.html">Writing</a>
+          <a href="../Listening/listeningPage.html">Listening</a>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Exercises
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Reading Test</a>
-            <a href="#">Writing Test</a>
-            <a href="#">Listening Test</a>
-          </div>
-        </div>
-        <a href="#contact">About</a>
-        <a href="#about">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/quizReadingTest.html">Reading Test</a>
+          <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+          <a href="../Listening/quizListeningTest.html">Listening Test</a>
+        </div>
+      </div>
+      <a href="../../index.html#courseHead">About us</a>
+      <a href="../../index.html#footer">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <!--Vertical Navigation Bar-->
     <div id="VnavBar">
         <ul>
@@ -146,10 +147,11 @@
     </div>
 
     
-  <div id="WRT">
-    <p id="Head">Personal Notes</p>
-    <p id="descrp">Often in our daily life we need to write short notes to people. We may wish to request something from someone, thank a friend, apologise, make excuses etc.<br>
+  <div id="spc">
+    <p id="HeadSP">Personal Notes</p>
+    <p id="Topic1">Often in our daily life we need to write short notes to people. We may wish to request something from someone, thank a friend, apologise, make excuses etc.<br>
         This Personal Notes are;</p>
+        <div id="list1"> 
     <ul>
         <li>don't begin with Dear......</li>
         <li>are brief and to the point</li>
@@ -157,7 +159,7 @@
         <li>don't end with 'Yours sincerely/ faithfully'</li>
         <li>are use contracted forms or contractions <br>
         Eg-:Don't wait for me</li>
-        </ul>
+        </ul></div>
    <br> 
 
     <table><tr><td>
@@ -172,7 +174,7 @@
   <div class="tab">
 <table cellpadding="20" align="center"><tr><td><img src="../../media/img/thnk.png" width="300"height="300" align="center"></td>
     <td>
-    <div class="table2">
+    <div class="table1">
     <table><tr><td><h3><center>Note of Thanks</center></h3>
         <p>Nirupama,<br><br>
         Thanks for sending me your Science notes. I received it yeaterday.</p></td></tr>
@@ -182,7 +184,7 @@
     </tr></table>
       </div>  
     <table cellpadding="40"><tr><td>
-    <div class="table3">
+    <div class="table1">
     <table><tr><td><h3><center>Note of Apology</center></h3>
         <p>Wimal,<br><br>
         I'm sorry. I can't come for the match. Have to go to kandy urgently.</p></td></tr>
@@ -190,19 +192,6 @@
         <td align="center"><img src="../../media/img/sorry.png"width="300"height="300" align="center"></td></tr></table>
     </div>
     
-    
-    
-    
-    
-    
-     <footer id="footer">
-    <p id="footer text">Learning English is optimized for learning and training. Eaxamples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
-        
-        Copyright 2021 by Refsnes Data. All Rights Reserved.
-        LearnEnglish is powered by RslUP</p>
-        <div class="icon">
-        <i id="icon" class="fab fa-linkedin"></i>
-        <i id="icon" class="fab fa-facebook-square"></i></div>
-    </footer>
+   
     
     </body></html>

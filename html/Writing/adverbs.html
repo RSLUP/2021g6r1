@@ -7,25 +7,45 @@
      <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
     <script src="../js/writingPage.js"></script>
     <link rel="stylesheet" href="../../css/navBar.css">
-    <link rel="stylesheet" href="../../css/formal.css">
+    <link rel="stylesheet" href="../../css/adjectives.css">
     <script src="../js/subCategory.js"></script>
     <title>Adverbs</title>
     
+    <script src="../../js/index.js"></script>
 </head>
 <body>
-    <!--Horizontal Navigation Bar-->
-    <div id="navBar" class="top">
-        <ul>
-            <li><a href="homePage.html">Home</a></li>
-            <li><a href="homePage.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+  <!--Navigation Bar-->
+
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html#courseHead">About us</a>
+    <a href="../../index.html#footer">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
     <!--Vertical Navigation Bar-->
     <div id="VnavBar">
         <ul>
@@ -127,22 +147,25 @@
     </div>
 
     
-  <div id="WRT">
-       <p id="Head">Adverbs</p>
-      <p id="descrp">Adverbs describe verbs and modify adjectives and other adverbs. Adverbs, unlike adjectives, do not modify nouns. Adverbs
-can also modify phrases, clauses, and sentences. Adverbs answer one of the following questions: When? Where? Why? How?
+  <div id="spc">
+       <p id="HeadSP">Adverbs</p>
+      <p id="Topic2">Adverbs describe verbs and modify adjectives and other adverbs. Adverbs, unlike adjectives, do not modify nouns. Adverbs
+can also modify phrases, clauses, and sentences.<br>
+ Adverbs answer one of the following questions: When? Where? Why? How?
 Under what conditions? and To what extent?</p>
-      <p>
-      Example:<br>
+      <p id="Topic1">Example:<br></p>
+        <div id="list2">
       <ul>
       <li>The teacher had to speak loudly to be heard over the children. (Loudly modifies the verb speak.)</li>
       <li>The children were really bad during the movie. (Really modifies the adjective bad.)</li>
       <li>John approached the wounded dog very slowly. (Very modifies the adverb slowly.)</li>
       <li>Clearly, Sarah did not understand the directions. (Clearly modifies the sentence.)</li>
-      <li>The box is still below the stairs. (Still modifies the phrase “below the stairs.”)</li></ul></p>
+      <li>The box is still below the stairs. (Still modifies the phrase “below the stairs.”)</li></ul></div>
     
-    <h2><u>Types of adverbs</u></h2>
-    <table border="1"align="center" cellspacing="5" cellpadding="10"><th>Types of adverbs</th><th>Examples</th>
+      <p id="TopicPP">Types of adverbs</p>
+      <div id="table3">
+    <table>
+      <th>Types of adverbs</th><th>Examples</th>
     <tr><td>manner</td><td>well, badly, accurately, quickly</td></tr>
     <tr><td>place</td><td>here, there, in the laboratory</td></tr>
     <tr><td>time</td><td>now, yesterday, in 2000</td></tr>
@@ -151,66 +174,66 @@ Under what conditions? and To what extent?</p>
     <tr><td>degree/extent</td><td>slightly, considerably, totally</td></tr>
     <tr><td>probability</td><td>possibly, probably, certainly</td></tr>
     <tr><td>attitude/opinion</td><td>naturally, surprisingly, in my opinion</td></tr>
-    <tr><td>aspect</td><td>technically, politically, scientifically</td></tr></table><br>
+    <tr><td>aspect</td><td>technically, politically, scientifically</td></tr></table></div><br>
     
-    <b>Adverbs of Time</b>
-<p>An adverb of time answers the question When? Adverbs of time include: <i>after, always, before, during, early, later,
-never, now, often, rarely, recently, sometimes, soon, then, today, tomorrow, usually, yesterday, </i>etc.</p>
+    <p id="Topic1">Adverbs of Time</p>
+<p id="Topic2">An adverb of time answers the question When? Adverbs of time include:<br> <i>after, always, before, during, early, later,
+never, now, often, rarely, recently, sometimes, soon, then, today, tomorrow, usually, yesterday, </i>etc.<br><br>
 Example: John will attend the soccer game after he finishes his homework. (After answers the question: When
-will John attend the soccer game?)<br><br>
+will John attend the soccer game?)</p><br><br>
     
     
-    <b>Adverbs of Manner</b>
-<p>An adverb of manner answers the question How? Adverbs of manner include: <i>badly, beautifully, better, bravely,
-cheerfully, fast, hard, quickly, slowly, inadequately, healthy, well,</i> etc.</p>
-Example: Sarah slowly walked over the rocky beach. (Slowly answers the question: How did Sarah walk?)<br><br>
+<p id="Topic1">Adverbs of Manner</p>
+<p id="Topic2">An adverb of manner answers the question How? Adverbs of manner include: <i>badly, beautifully, better, bravely,
+cheerfully, fast, hard, quickly, slowly, inadequately, healthy, well,</i> etc.<br><br>
+Example: Sarah slowly walked over the rocky beach. (Slowly answers the question: How did Sarah walk?)</p><br><br>
     
     
-<b>Adverbs of Place</b>
-<p>An adverb of place answers the question Where? Adverbs of place include: <i>above, away, below, down, here, inside,
-near, outside, there, up,</i> etc.</p>
+<p id="Topic1">Adverbs of Place</p>
+<p id="Topic2">An adverb of place answers the question Where? Adverbs of place include: <i>above, away, below, down, here, inside,
+near, outside, there, up,</i> etc.<br><br>
 Example: Susan placed the boxes above the file cabinet. (Above answers the question: Where did Susan place
-the boxes?)<br><br>
+the boxes?)</p><br><br>
     
 
-<b>Adverbs of Degree</b>
-<p>An adverb of degree answers the question How much? It describes the strength and intensity at which something
+<p id="Topic1">Adverbs of Degree</p>
+<p id="Topic2">An adverb of degree answers the question How much? It describes the strength and intensity at which something
 happens. Adverbs of degree include: <i>almost, completely, enough, entirely, extremely, hardly, just, little, much, nearly,
-quite, rather, very, too,</i> etc.</p>
+quite, rather, very, too,</i> etc.<br><br>
 Example: John worked very hard to complete his part of the project. (Very answers the question: How hard
-did John work?)<br><br>
+did John work?)</p><br><br>
     
 
-<b>Adverbs of Frequency</b>
-<p>An adverb of frequency answers the question How often? Adverbs of frequency include: <i>always, never, usually,
-frequently, occasionally, rarely, seldom, sometimes,</i> etc.</p>
+<p id="Topic1">Adverbs of Frequency</p>
+<p id="Topic2">An adverb of frequency answers the question How often? Adverbs of frequency include: <i>always, never, usually,
+frequently, occasionally, rarely, seldom, sometimes,</i> etc.<br><br>
 Example: Bob always forgets to check his email before class begins. (Before answers the question: How often
-does Bob forget to check his email?)<br>
+does Bob forget to check his email?)</p><br>
     
     
-    <u><h2>Formation of adverbs</h2></u>
-    <b>Adding –ly to the end</b><br>
-<p>Many adverbs are formed by adding –ly to an adjective.<br>
+<p id="TopicPP">Formation of adverbs</p>
+<p id="Topic1">Adding –ly to the end</p>
+<p id="Topic2">Many adverbs are formed by adding –ly to an adjective.<br>
     <i>Example: clear/clearly hard/hardly</i><br></p>
-    <b>Irregular Adverbs</b>
-<p>Some adverbs do not use the –ly ending. These adverbs do not have a particular form. Following is a list of some of
+    <p id="Topic1">Irregular Adverbs</p>
+    <p id="Topic2">Some adverbs do not use the –ly ending. These adverbs do not have a particular form. Following is a list of some of
 the most common irregular adverbs: <i>already, also, always, here, never, not, now, often, quite, seldom, soon, still, then,
 there, too, very well.</i></p>
     
-    <h2><u>Adverb Placement</u></h2>
-    <p>Adverbs are flexible in their placement; therefore, they can be placed just about anywhere within the sentence.</p>
-    At the beginning of a sentence or a clause<br>
+<p id="TopicPP">Adverb Placement</p>
+<p id="Topic2">Adverbs are flexible in their placement; therefore, they can be placed just about anywhere within the sentence.
+    At the beginning of a sentence or a clause<br><br>
 <i>Example: <b>Clearly</b>, John has a problem arriving to work on time.</i><br><br>
-    At the end of a sentence or a clause<br>
+    At the end of a sentence or a clause<br><br>
 <i>Example: Sarah and John attend the opera <b>frequently</b>.</i><br><br>
     After the verb<br>
 <i>Example: Bob and John have <b>always</b> participated in the soccer tournament.</i><br><br>
-Between the subject and the verb<br>
-<i>Example: Sarah <b>rarely forgets</b> to call home when she is out late.</i><br><br>
+Between the subject and the verb<br><br>
+<i>Example: Sarah <b>rarely forgets</b> to call home when she is out late.</i></p><br><br>
       
       
       
-       </div>
+       
     
        <br><br>
        <div id=prvnextbtn>
@@ -221,18 +244,9 @@ Between the subject and the verb<br>
            <br><br>
            </div>
     
+          </div>
     
     
-    
-     <footer id="footer">
-    <p id="footer text">Learning English is optimized for learning and training. Eaxamples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
-        
-        Copyright 2021 by Refsnes Data. All Rights Reserved.
-        LearnEnglish is powered by RslUP</p>
-        <div class="icon">
-        <i id="icon" class="fab fa-linkedin"></i>
-        <i id="icon" class="fab fa-facebook-square"></i></div>
-    </footer>
     
     
 </body>

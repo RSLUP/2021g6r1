@@ -13,22 +13,41 @@
     <link rel="stylesheet" href="../../css/listening.css">
     
     <title>Listening</title>
+    <script src="../../js/index.js"></script>
 </head>
-
 <body>
-    <!--Horizontal Navigation Bar-->
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#cards">Courses</a></li>
-            <li><a href="../index.html#cards">About Us</a></li>
-            <li><a href="../index.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+  <!--Navigation Bar-->
+
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html#courseHead">About us</a>
+    <a href="../../index.html#footer">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
     
     
     <!--Vertical Navigation Bar-->
@@ -61,23 +80,42 @@
         
         
     </div>
-
-
-
-
-
-
     
-    <footer id="footer">
-        <p id="footerText">LearnEnglish is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using LearnEnglish, you agree to have read and accepted our terms of use, cookie and privacy policy.
+    <!-- footer -->
+    <footer id="footer" class="footer-distributed">
+      <div class="footer-left">
+        <h3>Britannia<span>English</span></h3>
+
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="#courses">Courses</a>
+          <a href="#aboutUs">About</a>
+        </p>
+
   
-          Copyright 2021 by Refsnes Data. All Rights Reserved.
-         LearnEnglish is Powered by RslUP</p>
-        <div class="icon">
-          <i id="icon" class="fab fa-linkedin"></i>
-          <i id="icon" class="fab fa-facebook-square"></i>
+
+        <div class="footer-icons">
+          <a id="fb" href="#"><i class="fa fa-facebook"></i></a>
+          <a id="tw" href="#"><i class="fa fa-twitter"></i></a>
+          <a id="ld" href="#"><i class="fa fa-linkedin"></i></a>
+          <a id="gi" href="#"><i class="fa fa-github"></i></a>
         </div>
-      </footer>
+      </div>
+
+      <div class="footer-right">
+        <p>Contact Us</p>
+        <form>
+          <input type="text" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button type="button" onclick="submit()">Send</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+
+
+
+
 </body>
 
 </html>
