@@ -149,6 +149,23 @@
     font-weight: normal;
 
   }
+  #table4{
+    padding: 10px 300px;
+    padding-bottom: 30px;
+  }
+  #table4 th{
+    font-weight: bold;
+    background-color: lightgrey;
+  }
+  #table4 tr,td,th{
+    padding: 10px 0px;
+    background-color: lightyellow;
+    font-size: 20px;
+    text-align: left;
+    font-family: Poppins, Helvetica, serif;
+    font-weight: normal;
+
+  }
 
   #img{
     padding-left: 250px;
