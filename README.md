@@ -27,11 +27,11 @@ with an integrated approach to all main skills in English to enhance you as a vi
 
 ## Designing support extedend by:
 
-                        -   Thamali Abeywarne(University of Sabaragamuwa Sri Lanka)
-                        -   Oshini Bandara(University of Sabaragamuwa Sri Lanka)
+                        -   Thamali Abeywarne(Sabaragamuwa University of Sri Lanka)
+                        -   Oshini Bandara(Sabaragamuwa University of Sri Lanka)
                         -   Tharindu Liyanage(Informatics Institute of Technology)
-                        -   Ranjana Perera(University of Sabaragamuwa Sri Lanka)
-                        -   Medha Dharani(University of Sabaragamuwa Sri Lanka0
+                        -   Ranjana Perera(Sabaragamuwa University of Sri Lanka)
+                        -   Medha Dharani(Sabaragamuwa University of Sri Lanka0
                         -   Gayan Samaraweera(National Institute of Business Management)
                         -   Saneef Shahmy(National Institute of Business Management)
                         -   Abdur Rahman Mashoor Ali(National Institute of Business Management)
