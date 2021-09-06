@@ -1,6 +1,5 @@
- /*Navigation bar css*/
-  
- 
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
 /*nav barrrrr*/
 .topnav {
   background-color: rgba(15, 15, 15, 0.479);
@@ -86,16 +85,6 @@
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
-@media screen and (max-width: 800px) {
-  .topnav a:not(:first-child),
-  .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 
 @media screen and (max-width: 800px) {
   .topnav.responsive {
@@ -124,47 +113,47 @@
   }
 }
 
-
 /*Vertical Navigationbar*/
 
 #VnavBar {
-    padding-top: 20px;
-    padding-left: 5px;
-    height: 100%;
-    float: left;
-    background-color: #f1f1f1;
-    margin: 0;
-    overflow: auto;
+  padding-top: 50px;
+  padding-left: 5px;
+  height: 100%;
+  padding-top: 80px;
+  padding-top: 50px;
+  padding-left: 5px;
+  float: left;
+  background-color: #f1f1f1;
+  margin: 0;
+  overflow: auto;
 }
 
 #VnavBar ul {
-    list-style-type: none;
-    padding: 5px;
+  list-style-type: none;
+  padding: 5px;
 }
 
 #VnavBar li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #VnavBar a:hover {
-    background-color: #555;
-    color: white;
+  background-color: #555;
+  color: white;
 }
 
 #head {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    padding: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #000;
-    display: block;
-    
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  display: block;
 }
 #sp {
   font-family: Arial, Helvetica, sans-serif;
@@ -173,26 +162,27 @@
   text-decoration: none;
   color: #000;
   display: block;
-  
 }
-
 
 .drop {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-#subBox1, #subBox2, #subBox3,#pro,#adj {
-    display: none;
+#subBox1,
+#subBox2,
+#subBox3,
+#pro,
+#adj {
+  display: none;
 }
 
 .subbox a {
-   display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration:#555;
-    font-size: 15px;
-    padding: 0px 22px;
-    padding-top: 5px;
-   
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: #555;
+  font-size: 15px;
+  padding: 0px 22px;
+  padding-top: 5px;
 }
 
 /*previous next buttons*/
@@ -215,30 +205,240 @@
 #prvnextbtn .next {
   background-color: #0e0c01;
   color: white;
-  margin-left:850px;
- 
+  margin-left: 850px;
 }
 
 #prvnextbtn .round {
   border-radius: 100%;
 }
 
-#Topic{
-  padding-top: 50px;
-  padding-left: 300px;
+/* footer */
+
+.footer-distributed {
+  font-family: Roboto;
+  background: rgba(7, 7, 7, 0.363);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 50px 60px 30px;
+  overflow: hidden;
 }
 
-/*footer*/
-footer{
-    border-top: 1px solid black;
-    width:100%;
-    
-  }
-#footerText{
-    text-align: center;
-    color: rgb(8, 8, 8);
-}
-#footerTextHome{
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
   text-align: center;
-  color: rgb(250, 244, 244);
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Roboto", cursive;
+  margin: 0 0 10px;
+}
+
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+  margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+  #fb:hover {
+  background-color: #3b5998;
+}
+#tw:hover {
+  background-color: #00aced;
+}
+#ld:hover {
+  background-color: #007bb6;
+}
+#gi:hover {
+  background-color: #0c0b0c;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  float: right;
+}
+
+.footer-distributed .footer-right p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form {
+  display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color: #d1d2d2;
+
+  width: 400px;
+  padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+  color: #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+  color: #5c666b;
+  opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder {
+  color: #5c666b;
+}
+
+.footer-distributed form input {
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+  border-radius: 3px;
+  background-color: #33383b;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+}
+
+
+@media (max-width: 1000px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-company-name {
+    font-size: 12px;
+  }
+
+  .footer-distributed form input,
+  .footer-distributed form textarea {
+    width: 250px;
+  }
+
+  .footer-distributed form button {
+    padding: 10px 35px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-distributed {
+    padding: 30px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-left {
+    margin-bottom: 40px;
+  }
+
+  .footer-distributed form {
+    margin-top: 30px;
+  }
+
+  .footer-distributed form {
+    display: block;
+  }
+
+  .footer-distributed form button {
+    float: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
 }
