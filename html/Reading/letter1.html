@@ -14,19 +14,68 @@
     <title>Letter Example 01</title>
 </head>
 <body>
-    <div id="navBar" clss="top">
-        <ul>
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#cards">Courses</a></li>
-            <li><a href="homePage.html#cards">About Us</a></li>
-            <li><a href="homePage.html#cards">Contact</a></li>
-            <div class="icon">
-                <i id="icon" class="fab fa-linkedin"></i>
-                <i id="icon" class="fab fa-facebook-square"></i>
-            </div>
-        </ul>
+      
+  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+    <a href="../../index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="location.href ='#courses'">
+        Coursers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/reading.html">Reading</a>
+        <a href="../Writing/writingPage.html">Writing</a>
+        <a href="../Listening/listeningPage.html">Listening</a>
+      </div>
     </div>
-<body>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Exercises
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Reading/quizReadingTest.html">Reading Test</a>
+        <a href="#">Writing Test</a>
+        <a href="#">Listening Test</a>
+      </div>
+    </div>
+    <a href="../../index.html">About us</a>
+    <a href="../../index.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div id="VnavBar">
+    <ul>
+        <p id="head">Comics</p>
+        <li><a href="comic1.html">Two friends enjoy a meal.</a></li>
+        <li><a href="comic2.html">Lessons in love.</a></li>
+        <li><a href="comic3.html">Some transport problems.</a></li>
+
+        <p id="head">Stories</p>
+      
+        <li><a href="story1.html">The Alien Story</a></li>
+        <li><a href="story2.html">Charlie Chaplin's Early Life</a></li>
+        <li><a href="story3.html">The Shrinking Lake</a></li>
+
+        <p id="head">Paragraphs</p>
+        <li><a href="paragraph1.html">Learning English</a></li>
+        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a href="paragraph3.html">New Website Arrives</a></li>
+
+        <p id="head">Dialogues</p>
+        <li><a href="dialogue1.html">The Survey</a></li>
+        <li><a href="dialogue2.html">Hotel Dialogue</a></li>
+
+        <p id="head">Letters</p>
+        <li><a href="letter1.html"> Formal and Informal Letters</a></li>
+        <li><a href="letter2.html"> Letter Sentence Insertion</a></li>
+        <li><a href="letter3.html">Pen pals</a></li>
+        <li><a href="letter4.html"> Confused Letter</a> </li>
+
+    </ul>
+</div>
 <div id="Read">
   <p id="Head">Formal and Informal Letters</p>
     <p id="Topic">Read the following letter from one friend to another.</p>

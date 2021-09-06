@@ -47,3 +47,14 @@
     color: rgb(53, 4, 4);
     font-style: italic;
   }
+
+  #Topic1 {
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Poppins, Helvetica, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(14, 12, 12);
+    
+  }
