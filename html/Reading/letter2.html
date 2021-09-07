@@ -147,8 +147,17 @@ Kate
     
     </p>
 </div><br><br><br><br>
+<div id="back">
+
+  <button onclick="goBack()">Back</button>
+</div>
+<br><br>
 </div>
 <script>
+function goBack() {
+window.history.back();
+}
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 

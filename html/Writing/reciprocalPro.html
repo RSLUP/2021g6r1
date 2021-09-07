@@ -202,15 +202,17 @@
             </ul> 
         </div>
         <br><br>
-        <div id=prvnextbtn>
-        
-            <a href="reflexivePro.html" class="previous">&laquo; Previous</a>
-            
-            <a href="indefinitePro.html" class="next">Next &raquo;</a>
-            <br><br>
-            </div>
-</div>
+        <div id="back">
 
+            <button onclick="goBack()">Back</button>
+        </div>
+    <br><br>
+    </div>
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
 
     </body>
     </html>

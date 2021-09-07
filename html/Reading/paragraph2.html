@@ -185,6 +185,9 @@
           />
           False
         </p>
+
+      
+
         <p id="Topic2">
           5. Only older, more advanced students can currently take the
           course.<br /><br />
@@ -241,8 +244,18 @@
         </div>
       </form>
       <br /><br /><br /><br />
+   
+       <div id="back">
+
+        <button onclick="goBack()">Back</button>
     </div>
-    <script>
+<br><br>
+</div>
+<script>
+    function goBack() {
+      window.history.back();
+    }
+   
       var coll = document.getElementsByClassName("collapsible");
       var i;
 
@@ -260,3 +273,4 @@
     </script>
   </body>
 </html>
+
