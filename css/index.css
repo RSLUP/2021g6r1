@@ -470,7 +470,7 @@ margin-left: 15%;
   text-align: left;
   margin-bottom: 5%;
   overflow: hidden;
-  height: 700px;
+  height: 750px;
 }
 #leftBox h2 {
   margin-left: 15%;
@@ -546,6 +546,6 @@ margin-left: 15%;
 .button {
   font-size: 25px;
   padding: 20px;
-  width: 200px;
+  width: 150px;
 }
 }
