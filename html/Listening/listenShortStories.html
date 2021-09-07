@@ -1,179 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8173c0abca.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="../js/subCategory.js"></script>
 
     <link rel="stylesheet" href="css/homePage.css" />
-    <link rel="stylesheet" href="../../css/navBar.css"/>
-    <link rel="stylesheet" href="../../css/listening.css">
-    
+    <link rel="stylesheet" href="../../css/navBar.css" />
+    <link rel="stylesheet" href="../../css/listening.css" />
+
     <title>Short Stories</title>
     <script src="../../js/index.js"></script>
-</head>
-<body>
-  <!--Navigation Bar-->
+  </head>
+  <body>
+    <!--Navigation Bar-->
 
-  <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
-    <a href="../../index.html" class="active">Home</a>
-    <div class="dropdown">
-      <button class="dropbtn" onclick="location.href ='#courses'">
-        Coursers
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="../Reading/reading.html">Reading</a>
-        <a href="../Writing/writingPage.html">Writing</a>
-        <a href="../Listening/listeningPage.html">Listening</a>
+    <div class="topnav" id="myTopnav" onload="navBar(),scrollFunction()">
+      <a href="../../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="location.href ='#courses'">
+          Coursers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/reading.html">Reading</a>
+          <a href="../Writing/writingPage.html">Writing</a>
+          <a href="../Listening/listeningPage.html">Listening</a>
+        </div>
       </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">
-        Exercises
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="../Reading/quizReadingTest.html">Reading Test</a>
-        <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
-        <a href="../Listening/quizListeningTest.html">Listening Test</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Exercises
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Reading/quizReadingTest.html">Reading Test</a>
+          <a href="../Writing/Quiz/quizWritingTest.html">Writing Test</a>
+          <a href="../Listening/quizListeningTest.html">Listening Test</a>
+        </div>
       </div>
+      <a href="../../index.html#courseHead">About us</a>
+      <a href="../../index.html#footer">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <a href="../../index.html#courseHead">About us</a>
-    <a href="../../index.html#footer">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="navBar()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-    
-    
+
     <!--Vertical Navigation Bar-->
 
-   
     <div id="VnavBar">
-        <ul>
-            <p id="head">Dialogues</p>
-            <li><a href="../../html/Listening/listenDialogues.html">Listen Dialogues</a></li>
+      <ul>
+        <p id="head">Dialogues</p>
+        <li>
+          <a href="../../html/Listening/listenDialogues.html"
+            >Listen Dialogues</a
+          >
+        </li>
 
-            <p id="head">Poems</p>
-            <li><a href="../../html/Listening/listenPoems.html">Listen Poems</a></li>
+        <p id="head">Poems</p>
+        <li>
+          <a href="../../html/Listening/listenPoems.html">Listen Poems</a>
+        </li>
 
-            <p id="head">Short Stories</p>
-            <li><a href="../../html/Listening/listenShortStories.html">Listen Stories</a></li>
+        <p id="head">Short Stories</p>
+        <li>
+          <a href="../../html/Listening/listenShortStories.html"
+            >Listen Stories</a
+          >
+        </li>
 
-            <p id="head">Songs</p>
-            <li><a href="../../html/Listening/listenSongs.html">Listen Songs</a></li>
-
-        </ul>
+        <p id="head">Songs</p>
+        <li>
+          <a href="../../html/Listening/listenSongs.html">Listen Songs</a>
+        </li>
+      </ul>
     </div>
 
-
-
-    
     <div>
-        <!--content here-->
-        <p id="Topic">Listen to Short stories</p>
 
-        <p id="des">Listening to audiobooks builds listening skills, attention span and helps kids build their capacity to focus.<br>
-            Start with short stories and build over time to chapter books and novels that require listening for longer periods of time.</p>
-        <table id="tbl1">
-            <tr>
-                <td rowspan="3">
-                <img src="../../media/img/639_stry_bg-2.jpg" width="450" height="300">
-                </td>
-                <td>The Woman's Rose</td>
-            </tr>
-            <tr>
-                <td>
-                    <audio controls>
-                        <source src="../../media/audio/shortStories/womansrose.mp3" type="audio/mpeg">
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td><a href="../../media/audio/shortStories/THE%20WOMAN'S%20ROSE.pdf">Transcript</a></td>
-            </tr>
-            <tr>
-                <td rowspan="3">
-                <img src="../../media/img/openwindow.jpg" width="450" height="300">
-                </td>
-                <td>The Open Window</td>
-            </tr>
-            <tr>
-                <td>
-                    <audio controls>
-                        <source src="../../media/audio/shortStories/OpenWindow.mp3" type="audio/mpeg">
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td><a href="../../media/audio/shortStories/THE%20OPEN%20WINDOW.pdf">Transcript</a></td>
-            </tr>
-            <tr>
-                <td rowspan="3">
-                 <img src="../../media/img/hauntedhouse.jpg" width="450" height="300">
-                </td>
-                <td>A Haunted House</td>
-            </tr>
-            <tr>
-                <td>
-                    <audio controls>
-                        <source src="../../media/audio/shortStories/HauntedHouse.mp3" type="audio/mpeg">
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td><a href="../../media/audio/shortStories/A%20HAUNTED%20HOUSE.pdf">Transcript</a></td>
-            </tr>
-            <tr>
-                <td rowspan="3">
-                <img src="../../media/img/Dutch_-_Scullery_Maid_-_Google_Art_Project.jpg" width="450" height="300">
-                </td>
-                <td>The Post And Scullery Maid</td>
-            </tr>
-            <tr>
-                <td>
-                    <audio controls>
-                        <source src="../../media/audio/shortStories/PoetSculleryMaid.mp3" type="audio/mpeg">
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td><a href="../../media/audio/shortStories/THE%20POET%20AND%20SCULLERY%20MAID.pdf">Transcript</a></td>
-            </tr>
-              <tr>
-                <td rowspan="3">
-                 <img src="../../media/img/btloflife.jpg" width="450" height="300">
-                </td>
-                <td>The Battle Of Life</td>
-            </tr>
-            <tr>
-                <td>
-                    <audio controls>
-                        <source src="../../media/audio/shortStories/TheBattleofLife.mp3" type="audio/mpeg">
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="../../media/audio/shortStories/THE%20BATTLE%20OF%20LIFE.pdf">Transcript</a></td>
-            </tr>
-        </table>
-        <div id="back">
+      <!--content here-->
+      <p id="Topic">Listen to Short stories</p>
 
-            <button onclick="goBack()">Back</button>
-        </div>
-    <br><br>
+      <p id="des">
+        Listening to audiobooks builds listening skills, attention span and
+        helps kids build their capacity to focus.<br />
+        Start with short stories and build over time to chapter books and novels
+        that require listening for longer periods of time.
+      </p>
+      <table id="tbl1">
+        <tr>
+          <td rowspan="3">
+            <img
+              src="../../media/img/639_stry_bg-2.jpg"
+              width="450"
+              height="300"
+            />
+          </td>
+          <td>The Woman's Rose</td>
+        </tr>
+        <tr>
+          <td>
+            <audio controls>
+              <source
+                src="../../media/audio/shortStories/womansrose.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="../../media/audio/shortStories/THE%20WOMAN'S%20ROSE.pdf"
+              >Transcript</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3">
+            <img
+              src="../../media/img/openwindow.jpg"
+              width="450"
+              height="300"
+            />
+          </td>
+          <td>The Open Window</td>
+        </tr>
+        <tr>
+          <td>
+            <audio controls>
+              <source
+                src="../../media/audio/shortStories/OpenWindow.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="../../media/audio/shortStories/THE%20OPEN%20WINDOW.pdf"
+              >Transcript</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3">
+            <img
+              src="../../media/img/hauntedhouse.jpg"
+              width="450"
+              height="300"
+            />
+          </td>
+          <td>A Haunted House</td>
+        </tr>
+        <tr>
+          <td>
+            <audio controls>
+              <source
+                src="../../media/audio/shortStories/HauntedHouse.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="../../media/audio/shortStories/A%20HAUNTED%20HOUSE.pdf"
+              >Transcript</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3">
+            <img
+              src="../../media/img/Dutch_-_Scullery_Maid_-_Google_Art_Project.jpg"
+              width="450"
+              height="300"
+            />
+          </td>
+          <td>The Post And Scullery Maid</td>
+        </tr>
+        <tr>
+          <td>
+            <audio controls>
+              <source
+                src="../../media/audio/shortStories/PoetSculleryMaid.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="../../media/audio/shortStories/THE%20POET%20AND%20SCULLERY%20MAID.pdf"
+              >Transcript</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3">
+            <img src="../../media/img/btloflife.jpg" width="450" height="300" />
+          </td>
+          <td>The Battle Of Life</td>
+        </tr>
+        <tr>
+          <td>
+            <audio controls>
+              <source
+                src="../../media/audio/shortStories/TheBattleofLife.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="../../media/audio/shortStories/THE%20BATTLE%20OF%20LIFE.pdf"
+              >Transcript</a
+            >
+          </td>
+        </tr>
+      </table>
+   <div id="back">
+
+        <button onclick="goBack()">Back</button>
     </div>
-    <script>
-        function goBack() {
-          window.history.back();
-        }
-        </script>
-
-</body>
-
+<br><br>
+</div>
+    
+<script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+  </body>
 </html>
+
