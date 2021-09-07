@@ -3,10 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quiz App</title>
     <link rel="stylesheet" href="../../../css/buttonGridStyle.css">
     <link rel="stylesheet" href="../../../css/navBar.css">
     <script src="../../js/index.js"></script>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+            Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .main-container {
+        padding: 30px;
+        }
+
+        /* HEADING */
+
+        .heading {
+        text-align: center;
+        }
+
+        .heading__title {
+        font-weight: 600;
+        }
+
+        .heading__credits {
+        margin: 10px 0px;
+        color: #888888;
+        font-size: 25px;
+        transition: all 0.5s;
+        }
+
+        .heading__link {
+        text-decoration: none;
+        }
+
+        .heading__credits .heading__link {
+        color: inherit;
+        }
+
+        /* CARDS */
+
+        .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+
+        .card {
+        margin: 20px;
+        padding: 20px;
+        width: 500px;
+        min-height: 200px;
+        display: grid;
+        grid-template-rows: 20px 50px 1fr 50px;
+        border-radius: 10px;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+        transition: all 0.2s;
+        }
+
+        .card:hover {
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+        transform: scale(1.01);
+        }
+
+        .card__link,
+        .card__exit,
+        .card__icon {
+        position: relative;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.9);
+        }
+
+        .card__link::after {
+        position: absolute;
+        top: 25px;
+        left: 0;
+        content: "";
+        width: 0%;
+        height: 3px;
+        background-color: rgba(255, 255, 255, 0.6);
+        transition: all 0.5s;
+        }
+
+        .card__link:hover::after {
+        width: 100%;
+        }
+
+        .card__exit {
+        grid-row: 1/2;
+        justify-self: end;
+        }
+
+        .card__icon {
+        grid-row: 2/3;
+        font-size: 25px;
+        }
+
+        .card__title {
+        grid-row: 3/4;
+        font-weight: 400;
+        color: #ffffff;
+        }
+
+        .card__apply {
+        grid-row: 4/5;
+        align-self: center;
+        }
+
+        /* CARD BACKGROUNDS */
+
+        .card-1 {
+        background: radial-gradient(#1fe4f5, #3fbafe);
+        }
+
+        .card-2 {
+        background: radial-gradient(#fbc1cc, #fa99b2);
+        }
+
+        .card-3 {
+        background: radial-gradient(#76b2fe, #b69efe);
+        }
+
+        .card-4 {
+        background: radial-gradient(#60efbc, #58d5c9);
+        }
+
+        .card-5 {
+        background: radial-gradient(#f588d8, #c0a3e5);
+        }
+        .card-6 {
+        background: radial-gradient(#26f5b0, #48e2f7);
+        }
+
+        .card-7 {
+        background: radial-gradient(#e0ff6e, #82df79);
+        }
+
+        .card-8 {
+        background: radial-gradient(#76b2fe, #b69efe);
+        }
+
+        .card-9 {
+        background: radial-gradient(#60efbc, #58d5c9);
+        }
+
+        .card-10 {
+        background: radial-gradient(#f588d8, #c0a3e5);
+        }
+        /* RESPONSIVE */
+
+        @media (max-width: 1600px) {
+        .cards {
+            justify-content: center;
+        }
+        }
+        *{padding:0;margin:0;}
+
+        body{
+            font-family:Verdana, Geneva, sans-serif;
+            font-size:18px;
+            background-color:rgb(255, 255, 255);
+        }
+        /*
+        .float{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:40px;
+            right:40px;
+            background-color: #1fe4f5;
+            color:rgb(10, 44, 31);
+            border-radius:0px;
+            text-align: relative;
+            box-shadow: 2px 2px 3px #999;
+            vertical-align: middle;
+        }
+
+        .my-float{
+            margin-top:22px;
+        }
+        */
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+        span{
+        position: absolute;
+        display: inline-flex;
+        width: 180px;
+        height: 55px;
+        margin: 0 15px;
+        perspective: 1000px;
+        }
+        span a{
+        font-size: 19px;
+        letter-spacing: 1px;
+        transform-style: preserve-3d;
+        transform: translateZ(-25px);
+        transition: transform .25s;
+        font-family: 'Montserrat', sans-serif;
+        
+        }
+        span a:before,
+        span a:after{
+        position: absolute;
+        content: "MAIN MANU";
+        height: 55px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid black;
+        box-sizing: border-box;
+        border-radius: 5px;
+        }
+        span a:before{
+        color: #fff;
+        background: #000;
+        transform: rotateY(0deg) translateZ(25px);
+        }
+        span a:after{
+        color: #000;
+        transform: rotateX(90deg) translateZ(25px);
+        }
+        span a:hover{
+        transform: translateZ(-25px) rotateX(-90deg);
+        }
+
+    </style>
   </head>
   <body>
     <!--Navigation Bar-->
@@ -41,26 +271,104 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-<div class="container">
-  <div class="center">
-<button class="button" onclick="document.location='tenses.html'"><span>Tenses</span></button>
-<button class="button" onclick="document.location='noun.html'"><span>Nouns</span></button>
-<button class="button" onclick="document.location='article.html'"><span>Articles</</span></button>
-
-<br>
-<button class="button" onclick="document.location='adjectiveandAdverb.html'"><span>Adjective and Verbs</</span></button>
-<button class="button" onclick="document.location='conditionalForms.html'"><span>Conditional Forms</</span></button>
-<button class="button" onclick="document.location='indirectSpeech.html'"><span>Indirect Speech</</span></button>
-<br>
-<button class="button" onclick="document.location='passive.html'"><span>Passive Voice</span></button>
-<button class="button" onclick="document.location='preposition.html'"><span>Prepositions</</span></button>
-<button class="button" onclick="document.location='quantifiers.html'"><span>Quantifiers</</span></button>
-<br>
-<button class="button" onclick="document.location='subjectandVerbAgreement.html'"><span>Verb Agreement</</span></button>
-</div>
-</div>
-
-
+    <div class="main-container">
+        <div class="heading">
+          <h1 class="heading__title">Writing Quizzes</h1>
+          <p class="heading__credits"><a class="heading__link" target="_blank" href="https://dribbble.com/sl">By Britannia English Learning Platform</a></p>
+        </div>
+        <div class="cards">
+          <div class="card card-1">
+            <div class="card__icon">Nouns<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">Nouns are words that give a name to people, places or things, though they can also refer to ideas and other abstract objects</h2> <!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\noun.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-2">
+            <div class="card__icon">Adjective and Adverb<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">An adjective describes a noun or pronoun.<br> An adverb describes a verb or anything apart from a noun and pronoun.</h2><!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\adjectiveandAdverb.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-3">
+            <div class="card__icon">Quantifiers<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">Quantifiers are used when we want to give someone information about the number of something: how much or how many</h2><!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\quantifiers.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-4">
+            <div class="card__icon">Preposition<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">Apreposition is a word or group of words used before a noun, pronoun, or noun phrase to show direction, time, place, location, spatial relationships, or to introduce an object.</h2><!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\preposition.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-5">
+            <div class="card__icon">Subject Verb Agreement<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">subject-verb agreement is the correspondence of a verb with its subject in person (first, second, or third) and number (singular or plural).</h2><!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\subjectVerbAgreement.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-6">
+            <div class="card__icon">Article<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">An article is any member of a class of dedicated words that are used with noun phrases to mark the identifiability of the referents of the noun phrases.</h2> <!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\article.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-7">
+            <div class="card__icon">Conditional Forms<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">Conditional tenses are used to speculate about what could happen, what might have happened, and what we wish would happen.</h2> <!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\conditionalForms.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-8">
+            <div class="card__icon">Passive<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">A verb is in the passive voice when the subject of the sentence is acted on by the verb</h2> <!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\passive.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-9">
+            <div class="card__icon">Tenses<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">a verb-based method used to indicate the time, and sometimes the continuation or completeness, of an action or state in relation to the time of speaking.</h2> <!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\tenses.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="card card-10">
+            <div class="card__icon">Reported Speech<i class="fas fa-bolt"></i></div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">
+                Indirect speech is speech which tells you what someone said, but does not use the person's actual words.</h2> <!--add itroduction to the quizzes-->
+            <p class="card__apply">
+              <a class="card__link" href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\html\Writing\Quiz\indirectSpeech.html">Start Quiz <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+        </div>
+    </div>
+    <!--<div class="float_menu_btn">
+        <a href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\index.html" class="float">
+        <i class="fa fa-plus my-float">Home</i></a>
+    </div>
+    -->
+    <div class="float_menu_btn"><span><a href="C:\Users\User\Desktop\RSLUP-project\2021g6r1\index.html"></a></span></div>
 
 </body>
 </html>
+    
+
+
