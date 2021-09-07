@@ -29,7 +29,10 @@
   background-color: rgb(255, 124, 1, 0.836);
   color: white;
 }
-
+.active_select {
+  background-color: rgb(255, 124, 1, 0.836);
+  color: white;
+}
 .topnav .icon {
   display: none;
 }
