@@ -1,10 +1,8 @@
-
- @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 /*nav barrrrr*/
 .topnav {
-  background-color: rgba(15, 15, 15, 0.479);
+  background-color: rgb(15, 15, 15);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: fixed;
   z-index: 3;
@@ -28,7 +26,7 @@
 }
 
 .topnav a.active {
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(255, 124, 1, 0.836);
   color: white;
 }
 
@@ -114,20 +112,32 @@
     text-align: left;
   }
 }
+#back{
+  padding-left: 150px;
+}
+#back button{
+  background-color: #0a0a0a; 
+  padding: 18px 40px;
+  text-align: center;
+  color:ivory;
+  display:initial;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 
 /*Vertical Navigationbar*/
 
 #VnavBar {
-  padding-top: 50px;
-  padding-left: 5px;
+
+
+  position: fixed;
+  padding-top: 0;
   height: 100%;
-  padding-top: 80px;
-  padding-top: 50px;
-  padding-left: 5px;
   float: left;
   background-color: #f1f1f1;
   margin: 0;
   overflow: auto;
+  z-index: 1;
 }
 
 #VnavBar ul {
@@ -145,6 +155,11 @@
 
 #VnavBar a:hover {
   background-color: #555;
+  color: white;
+}
+
+#VnavBar a:active {
+  background-color: rgb(113, 114, 111);
   color: white;
 }
 
@@ -265,6 +280,11 @@ section {
   padding: 0;
 }
 
+.footer-links a:hover {
+  font-size: 25px;
+  color: black;
+}
+
 .footer-distributed .footer-links a {
   display: inline-block;
   line-height: 1.8;
@@ -301,7 +321,7 @@ section {
   margin-right: 3px;
   margin-bottom: 5px;
 }
-  #fb:hover {
+#fb:hover {
   background-color: #3b5998;
 }
 #tw:hover {
@@ -384,7 +404,6 @@ section {
   font-weight: bold;
   float: right;
 }
-
 
 @media (max-width: 1000px) {
   .footer-distributed {

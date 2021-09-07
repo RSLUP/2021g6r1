@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../css/reading.css">
     <link rel="stylesheet" href="../../css/navBar.css">
     
-
+    <script src="../../js/index.js"></script>
     <title>Story Reading 03</title>
 </head>
 <body>
@@ -145,8 +145,17 @@
     </p>
 </div>
     </form><br><br><br><br>
-    </div>
+    <div id="back">
+
+      <button onclick="goBack()">Back</button>
+  </div>
+<br><br>
+</div>
 <script>
+  function goBack() {
+    window.history.back();
+  }
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 

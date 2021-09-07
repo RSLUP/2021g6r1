@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/8173c0abca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/reading.css">
     <link rel="stylesheet" href="../../css/navBar.css">
-    
+    <script src="../../js/index.js"></script>
 
     <title>Dialogue 01</title>
 </head>
@@ -160,8 +160,17 @@
     Question 8 -Actual Answer is: false.</p><br>
 </div>
     </form><br><br><br><br>
-    </div>
+    <div id="back">
+
+      <button onclick="goBack()">Back</button>
+  </div>
+<br><br>
+</div>
 <script>
+  function goBack() {
+    window.history.back();
+  }
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 

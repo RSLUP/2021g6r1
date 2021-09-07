@@ -1,5 +1,12 @@
 body{
-    background: #00203FFF;
+  
+  
+    background-image: url(../media/img/qbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+
 }
 
 .center {
@@ -14,16 +21,16 @@ body{
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #fa1414;
-  border: none;
+  background-color: #064c4e;
+  border: 2px solid black;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
-  padding: 20px;
+  padding: 30px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 15px;
 }
 
 .button span {
@@ -71,6 +78,11 @@ body{
 
 .buttons button.exit:hover{
     background: #0263ca;
+}
+
+button:hover{
+  background-color: aquamarine;
+  color: black;
 }
 @media screen and (max-width: 600px) {
 
