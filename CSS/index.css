@@ -259,7 +259,7 @@ body {
 
 #class{
 margin-left: 15%;
-  
+}
   
 
 @media screen and (max-width: 800px) {
@@ -298,5 +298,75 @@ margin-left: 15%;
     width: 100%;
     text-align: left;
   }
+}
+
+@media screen and (max-width: 800px) {
+	body {
+}
+
+#intro {
+  width: 100%;
+}
+#intro img {
+  height: 300px;
+}
+#hdtext {
+  font-size: 30px;
+  line-height: 40.96px;
+}
+
+#courseHead {
+  font-size: 50px;
+}
+
+ .flip-card {
+  width: 45%;
+}
+
+.flip-card-front, .flip-card-back {
+  width: 100%;
+}
+
+.flip-card-back h1{
+  font-size: 30px;
+}
+
+.flip-card-back p{
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width: 500px) {
+body {
+}
+
+#intro {
+  width: 100%;
+}
+#intro img {
+  height: 250px;
+}
+#hdtext {
+  font-size: 25px;
+  line-height: 40.96px;
+}
+
+#courseHead {
+  font-size: 40px;
+}
+ .flip-card {
+  width: 70%;
+}
+
+.flip-card-front, .flip-card-back {
+  width: 100%;
+}
+
+.flip-card-back h1{
+  font-size: 28px;
+}
+
+.flip-card-back p{
+  font-size: 15px;
 }
 }
