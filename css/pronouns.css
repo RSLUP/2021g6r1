@@ -23,17 +23,20 @@
     font-weight: bold;
   }
 
-  #list ul {
+  #spc #list ul {
     padding: 10px 300px;
     padding-bottom: 280px;
+    text-decoration: none;
+   
   }
   #list li{
+    text-decoration: none;
     padding:20px 20px;
     text-align: left;
     font-family: Poppins, Helvetica, serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: normal;
-    color: rgb(29, 36, 2);
+    color: rgb(18, 22, 1);
   }
 
   #TopicPP {
