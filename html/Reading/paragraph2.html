@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -62,7 +63,7 @@
 
         <p id="head">Paragraphs</p>
         <li><a href="paragraph1.html">Learning English</a></li>
-        <li><a href="paragraph2.html">Computer Game Course</a></li>
+        <li><a class="current" href="paragraph2.html">Computer Game Course</a></li>
         <li><a href="paragraph3.html">New Website Arrives</a></li>
 
         <p id="head">Dialogues</p>
@@ -185,9 +186,6 @@
           />
           False
         </p>
-
-      
-
         <p id="Topic2">
           5. Only older, more advanced students can currently take the
           course.<br /><br />
@@ -244,18 +242,11 @@
         </div>
       </form>
       <br /><br /><br /><br />
-   
-       <div id="back">
-
-        <button onclick="goBack()">Back</button>
-    </div>
-<br><br>
-</div>
+   </div>
 <script>
     function goBack() {
       window.history.back();
     }
-   
       var coll = document.getElementsByClassName("collapsible");
       var i;
 
@@ -273,4 +264,3 @@
     </script>
   </body>
 </html>
-
