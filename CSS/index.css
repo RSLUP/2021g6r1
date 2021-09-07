@@ -259,10 +259,7 @@ body {
 
 #class{
 margin-left: 15%;
-<<<<<<< HEAD
 }
-  
-=======
   
  #back button{
   background-color: #0a0a0a; 
@@ -273,7 +270,6 @@ margin-left: 15%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 } 
->>>>>>> 42b3c5fc133d775be6affaabcffc8ef50bf871d9
 
 @media screen and (max-width: 800px) {
   .topnav a:not(:first-child),
@@ -312,7 +308,6 @@ margin-left: 15%;
     text-align: left;
   }
 }
-<<<<<<< HEAD
 
 @media screen and (max-width: 800px) {
 	body {
@@ -384,6 +379,3 @@ body {
   font-size: 15px;
 }
 }
-=======
-}
->>>>>>> 42b3c5fc133d775be6affaabcffc8ef50bf871d9
