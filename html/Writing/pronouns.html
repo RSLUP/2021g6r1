@@ -177,16 +177,17 @@
 </div>
 
 <br><br>
-<div id=prvnextbtn>
+<div id="back">
 
-    <a href="writingPage.html" class="Back">&laquo; Back</a>
-    
-    <a href="verbs.html" class="next">Next &raquo;</a>
-    <br><br>
-    </div>
-
+  <button onclick="goBack()">Back</button>
 </div>
-
+<br><br>
+</div>
+<script>
+function goBack() {
+window.history.back();
+}
+</script>
 
 
     </body>

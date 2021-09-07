@@ -118,8 +118,17 @@
     Question 4 -Actual Answer is: Try and speak English in class more often.</p><br><br>
 </div>
     </form><br><br><br><br>
-    </div>
+    <div id="back">
+
+      <button onclick="goBack()">Back</button>
+  </div>
+<br><br>
+</div>
 <script>
+  function goBack() {
+    window.history.back();
+  }
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
