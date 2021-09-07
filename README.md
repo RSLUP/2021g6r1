@@ -33,9 +33,9 @@ with an integrated approach to all main skills in English to enhance you as a vi
                         -   Ranjana Perera(Sabaragamuwa University of Sri Lanka)
                         -   Medha Dharani(Sabaragamuwa University of Sri Lanka0
                         -   Gayan Samaraweera(National Institute of Business Management)
-                        -   Saneef Shahmy(National Institute of Business Management)
+                        -   Shahmy Saneef(National Institute of Business Management)
                         -   Abdur Rahman Mashoor Ali(National Institute of Business Management)
-                        -   Shashika Abeykoon(National Institute of Business Management)
+                        -   Sashika Abeykoon(National Institute of Business Management)
 
 ## References
         -https://learnenglish.britishcouncil.org/

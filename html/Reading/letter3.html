@@ -142,8 +142,17 @@ Milena &nbsp;&nbsp;x x</p>
 </form><br><br><br><br>
         
         
-        </div>
+<div id="back">
+
+  <button onclick="goBack()">Back</button>
+</div>
+<br><br>
+</div>
 <script>
+function goBack() {
+window.history.back();
+}
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 

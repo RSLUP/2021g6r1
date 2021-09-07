@@ -129,8 +129,17 @@
     Question 6 -Actual Answer is: True.</p><br><br>
 </div>
     </form><br><br><br><br>
-    </div>
+    <div id="back">
+
+      <button onclick="goBack()">Back</button>
+  </div>
+<br><br>
+</div>
 <script>
+  function goBack() {
+    window.history.back();
+  }
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
